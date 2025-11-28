@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+        <title>Impressum</title>
+        <link rel="icon" type="image/jpg"
+              href="images/icons/cable-car.png">
+    </head>
+    <body>
+        <header>
+            <h1><b>Impressum</b></h1>
+            <div id="logout">
+                <input type="submit" class="btn-teriträr" name="submit" value="Zurück" id="btn-back" >
+            </div>
+        </header>
+
+        <main>
+            <div id="Impressum">
+                <p>
+                    <br>   
+                    <h2>Angaben Impressum:</h2> 
+                    <br>
+                    <br>  
+                    Philipp Uhlendorf
+                    <br>
+                    An der Mohrsmühle 34
+                    <br>
+                    65817 Eppstein
+                    <br>  
+                    Germany
+                    <br> 
+                    <h3>Kontaktaufnahme:</h3>
+                    <br>
+                    <p>Bei Fragen oder Anregungen bitte</p><h4>per E-Mail an:&#160 &#160 <b><a href="mailto:support@pudevelopment.tech">support@pudevelopment.tech</a></b></h4>
+                    <br>
+                    <h2>Verantwortlicher gemäß § 55 Abs. 2 RStV</h2>
+                    <h4> Philipp Uhlendorf </h4>
+                    <br>    
+                    Plattform der EU-Kommission zur Online-Streitbeilegung: <a href="https://www.ec.europa.eu/consumers/odr ">ec.europa.eu/consumers/odr </a>
+                    <br>
+                    <br>
+                    Der Ersteller dieser Webseite ist weder zur Teilnahme an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle  verpflichtet noch bereit.
+                    <br>
+                    <h2>Haftungsausschluss:</h2>
+                    <br>
+                    <h3>Es wird nicht gehaftet für unrichtige Angaben, Übertragungsfehler, technische Verfügbarkeit, externe Inhalte sowie Folgeschäden jeglicher Art.<br>Alle Angaben ohne Gewähr.&#160 &#160 Alle Rechte vorbehalten</h3>
+                    <br>
+                </p>
+            </div>
+        </main>
+
+        <footer>
+            <p>
+                <a href="Impressum.php">Impressum</a>
+            </p>
+            <p>&copy; 2024-2025 Philipp Uhlendorf</p>
+            <p>
+                <a href="Datenschutz.php">Datenschutz</a>
+            </p>
+        </footer>
+        <script>
+            const basePath = "<?php echo dirname($_SERVER['SCRIPT_NAME']); ?>";
+            document.getElementById('btn-back').addEventListener('click', function() {//Zum Login wechseln
+                 window.location.href = basePath + '/Homepage.php';
+        });
+        </script>
+    </body>
+</html>

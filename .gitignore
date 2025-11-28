@@ -1,0 +1,58 @@
+# Allgemeine Systemdateien
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Windows Editor / Temp
+*.swp
+*~
+*.bak
+
+# PHP / Composer
+/vendor/
+.env
+.env.local
+.env.*.local
+.phpunit.result.cache
+.php_cs.cache
+phpunit.xml.cache
+composer.phar
+
+# Node / Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build / Distribution / Logs
+/dist/
+/build/
+logs/
+*.log
+coverage/
+
+# Uploads / temporäre App-Daten
+/uploads/
+/public/uploads/
+storage/
+tmp/
+cache/
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Datenbank / lokale DB-Dateien
+*.sqlite
+*.db
+*.sql
+*.sql.gz
+/DB/
+
+# Sonstiges
+.Dockerfile.local
+.env.backup
+config.php
+.htaccess
