@@ -1,6 +1,6 @@
 <?php
-require_once __DIR__ . "/php/config.php";
-require_once __DIR__ . "/php/session.php";
+require_once "config.php";
+require_once "session.php";
 $error = '';
 #session_start();
 
@@ -26,7 +26,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])){
                     $_SESSION["userid"] = $row['id'];
                     $_SESSION["user"] = $row;
                     $_SESSION["email"] = $row['email'];
-                    header("Location: " . __DIR__ . "/php/welcome.php");
+                    header("Location: welcome.php");
                     exit;
                 }else{
                     $error .= '<p class="error"> E-Mail oder Kennwort falsch.</p>'; #Falsches Passwort
@@ -94,7 +94,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])){
     <script>
         const basePath = "<?php echo dirname($_SERVER['SCRIPT_NAME']); ?>";
         document.getElementById('back').addEventListener('click', function() {
-            window.location.href = basePath + '/Homepage.php';
+            window.location.href = basePath + 'Homepage.php';
         });
         document.getElementById('reset').addEventListener('click', function(){
             window.location.href = '';

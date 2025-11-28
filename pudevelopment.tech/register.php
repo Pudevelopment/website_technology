@@ -45,7 +45,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])){
         }
         $_SESSION['success'] = $success;
         $_SESSION['error'] = $error;
-        header("Location: ../Mainsite.php");
+        header("Location: Mainsite.php");
         $query->close();
     }
     if (isset($insertQuery)) {

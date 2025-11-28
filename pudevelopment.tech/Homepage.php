@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . "/php/config.php";
+require_once "config.php";
 
 $db = mysqli_connect(DBSERVER, DBUSERNAME, DBPASSWORD, DBNAME);
 
@@ -311,14 +311,13 @@ if ($db === false) {
         </div>
         
         <script>
-            const basePath = "<?php echo dirname($_SERVER['SCRIPT_NAME']); ?>";
             document.getElementById('btn-login').addEventListener('click', function() {//Zum Login wechseln
-                window.location.href = '' + basePath + '/login.php';
+                window.location.href = 'login.php';
             });
 
             document.getElementById('btn-tohub').addEventListener('click', function() {
                 alert('Bitte Link anpassen in Homepage.php Line: 344');
-                window.location.href = '' + basePath + '/index.php';
+                window.location.href = 'index.php';
             });
 
             document.addEventListener("DOMContentLoaded", function () {

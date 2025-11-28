@@ -61,9 +61,8 @@
             </p>
         </footer>
         <script>
-            const basePath = "<?php echo dirname($_SERVER['SCRIPT_NAME']); ?>";
             document.getElementById('btn-back').addEventListener('click', function() {//Zum Login wechseln
-                 window.location.href = basePath + '/Homepage.php';
+                 window.location.href = 'Homepage.php';
         });
         </script>
     </body>

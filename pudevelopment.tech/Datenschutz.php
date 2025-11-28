@@ -18,6 +18,7 @@
 
         <main>
             <p><center>Hier finden sie demnächst die Datenschutzerkärung</center></p>
+            <p></p>
         </main>
 
         <footer>
