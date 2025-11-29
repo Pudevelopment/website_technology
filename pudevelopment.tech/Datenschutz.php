@@ -18,39 +18,39 @@
 
         <main>
             <div id="Datenschutz">
-                <h1>Datenschutzerklärung</h1>
-                <ul>
+                <div id="header-datenschutz">
+                    <h1>Datenschutzerklärung</h1>
                     <li class="lhl" style="margin-bottom:18.0pt;"><span> </span>
-                    <p><strong> </strong><strong>Allgemeine Hinweise</strong>
+                    <p><strong>Allgemeine Hinweise</strong>
                     </p>
                     </li>
                     <li style="margin-bottom:18.0pt;" value="1"><span>Diese Datenschutzerklärung enthält ausführliche Informationen darüber, was mit Ihren persönlichen Daten passiert, wenn Sie unsere Website https://www.pudevelopment.tech besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie sich persönlich identifizieren können. Wir halten uns bei der Verarbeitung Ihrer Daten streng an die gesetzlichen Bestimmungen, insbesondere die Datenschutzgrundverordnung („DSGVO“), und legen großen Wert darauf, dass Ihr Besuch auf unserer Website absolut sicher ist.</span><br>
                     </li>
                     <li class="lhl" style="margin-bottom:18.0pt;"><span> </span>
-                        <p><strong> </strong><strong>Verantwortliche Stelle</strong>
+                        <p><strong>Verantwortliche Stelle</strong>
                         </p>
                     </li>
                     <li style="margin-bottom:18.0pt;" value="2"><span>Datenschutzrechtlich verantwortlich für die Erhebung und Verarbeitung von personenbezogenen Daten auf dieser Website ist:</span><br><br><strong>Vorname, Name: </strong>Philipp Uhlendorf<br><strong>Straße, Hausnummer: </strong>An der Mohrsmühle 34<br><strong>Postleitzahl, Ort: </strong>Eppstein<br><strong>Land: </strong>Deutschland<br><strong>E-Mail: </strong>pu-ol@gmx.de<br>
                     </li>
-                    <li class="lhl" style="text-align:center;margin-bottom:18.0pt;"><span> </span>
-                        <p style="text-align:center;"><strong> </strong><strong>Zugriffsdaten (Server-Logfiles)</strong>
+                    <li class="lhl" style="margin-bottom:18.0pt;"><span> </span>
+                        <p ><strong>Zugriffsdaten (Server-Logfiles)</strong>
                         </p>
                     </li>
-                    <li style="margin-bottom:18.0pt;" value="3"><span>Beim Aufruf unserer Website erheben wir und speichern automatisch in sogenannten Server-Logfiles Zugriffsdaten, die Ihr Browser automatisch an uns übermittelt. Dies sind:</span><br>
-                        <ul class=" bullet">
-                            <li style="margin-bottom:18.0pt;" value="1"><span>Browsertyp und Browserversion Ihres PC</span><br>
-                            </li>
-                            <li style="margin-bottom:18.0pt;" value="2"><span>Hostname des zugreifenden Rechners</span><br>
-                            </li>
-                            <li style="margin-bottom:0.0pt;" value="3"><span>Datum und Uhrzeit der Serveranfrage</span><br>
-                            </li>
-                        </ul>
-                    </li>
-                    <li style="margin-bottom:18.0pt;" value="4"><span>Ein Personenbezug ist uns im Regelfall nicht möglich und auch nicht beabsichtigt. Die Verarbeitung solcher Daten erfolgt gemäß Art. 6 Abs. 1 lit. f DSGVO zur Wahrung unseres berechtigten Interesses an der Verbesserung der Stabilität und Funktionalität unserer Website.</span><br>
-                    </li>
-                </ul>
-                <li class="lhl" style="text-align:center;margin-bottom:18.0pt;"><span> </span>
-                    <p style="text-align:center;"><strong> </strong><strong>Cookies</strong>
+                </div>
+                <li style="margin-bottom:18.0pt;" value="3"><span>Beim Aufruf unserer Website erheben wir und speichern automatisch in sogenannten Server-Logfiles Zugriffsdaten, die Ihr Browser automatisch an uns übermittelt. Dies sind:</span><br>
+                    <ul class=" bullet">
+                        <li style="margin-bottom:18.0pt;" value="1"><span>Browsertyp und Browserversion Ihres PC</span><br>
+                        </li>
+                        <li style="margin-bottom:18.0pt;" value="2"><span>Hostname des zugreifenden Rechners</span><br>
+                        </li>
+                        <li style="margin-bottom:0.0pt;" value="3"><span>Datum und Uhrzeit der Serveranfrage</span><br>
+                        </li>
+                    </ul>
+                </li>
+                <li style="margin-bottom:18.0pt;" value="4"><span>Ein Personenbezug ist uns im Regelfall nicht möglich und auch nicht beabsichtigt. Die Verarbeitung solcher Daten erfolgt gemäß Art. 6 Abs. 1 lit. f DSGVO zur Wahrung unseres berechtigten Interesses an der Verbesserung der Stabilität und Funktionalität unserer Website.</span><br>
+                </li>
+                <li class="lhl" style="margin-bottom:18.0pt;"><span> </span>
+                    <p ><strong>Cookies</strong>
                     </p>
                 </li>
                 <li style="margin-bottom:18.0pt;" value="5"><span>Um den Besuch unserer Website attraktiv zu gestalten und die Nutzung bestimmter Funktionen zu ermöglichen, verwenden wir sogenannte Cookies. Hierbei handelt es sich um kleine Textdateien, die auf Ihrem Endgerät abgelegt werden. Cookies können keine Programme ausführen oder Viren auf Ihr Computersystem übertragen.</span><br>
@@ -61,8 +61,8 @@
                 </li>
                 <li style="margin-bottom:18.0pt;" value="8"><span>Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und Cookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte Fälle oder generell ausschließen sowie das automatische Löschen der Cookies beim Schließen des Browsers aktivieren. Bei der Deaktivierung von Cookies kann die Funktionalität dieser Website eingeschränkt sein.</span><br>
                 </li>
-                <li class="lhl" style="text-align:center;margin-bottom:18.0pt;"><span> </span>
-                    <p style="text-align:center;"><strong> </strong><strong>Soziale Medien</strong>
+                <li class="lhl" style="margin-bottom:18.0pt;"><span> </span>
+                    <p ><strong> </strong><strong>Soziale Medien</strong>
                     </p>
                 </li>
                 <li style="margin-bottom:18.0pt;" value="9">
@@ -77,8 +77,8 @@
                         </li>
                     </ol>
                 </li>
-                <li class="lhl" style="text-align:center;margin-bottom:18.0pt;"><span> </span>
-                    <p style="text-align:center;"><strong> </strong><strong>Kontaktformular</strong>
+                <li class="lhl" style="margin-bottom:18.0pt;"><span> </span>
+                    <p ><strong> </strong><strong>Kontaktformular</strong>
                     </p>
                 </li>
                 <li style="margin-bottom:18.0pt;" value="10"><span>Sofern Sie mit uns Kontakt per E-Mail oder über ein Kontaktformular aufnehmen, werden übermittelte Daten einschließlich Ihrer Kontaktdaten gespeichert, um Ihre Anfrage bearbeiten zu können oder um für Anschlussfragen bereitzustehen. Eine Weitergabe dieser Daten findet ohne Ihre Einwilligung nicht statt.</span><br>
@@ -87,14 +87,14 @@
                 </li>
                 <li style="margin-bottom:18.0pt;" value="12"><span>Über das Kontaktformular übermittelte Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder keine Notwendigkeit der Datenspeicherung mehr besteht. Zwingende gesetzliche Bestimmungen - insbesondere Aufbewahrungsfristen - bleiben unberührt.</span><br>
                 </li>
-                <li class="lhl" style="text-align:center;margin-bottom:18.0pt;"><span> </span>
-                    <p style="text-align:center;"><strong> </strong><strong>Nutzerkonto</strong>
+                <li class="lhl" style="margin-bottom:18.0pt;"><span> </span>
+                    <p ><strong> </strong><strong>Nutzerkonto</strong>
                     </p>
                 </li>
                 <li style="margin-bottom:18.0pt;" value="13"><span>Wenn Sie ein Nutzerkonto eröffnen, willigen Sie damit ein, dass Ihre Bestandsdaten wie Name, Adresse und E-Mail-Adresse sowie Ihre Nutzungsdaten (Benutzername, Passwort) gespeichert werden. Dadurch haben Sie die Möglichkeit, sich mit Ihrer E-Mail-Adresse sowie Ihrem persönlichen Passwort bei uns einzuloggen.</span><br>
                 </li>
-                <li class="lhl" style="text-align:center;margin-bottom:18.0pt;"><span> </span>
-                    <p style="text-align:center;"><strong> </strong><strong>Datenverwendung und -weitergabe</strong>
+                <li class="lhl" style="margin-bottom:18.0pt;"><span> </span>
+                    <p ><strong> </strong><strong>Datenverwendung und -weitergabe</strong>
                     </p>
                 </li>
                 <li style="margin-bottom:18.0pt;" value="14"><span>Die personenbezogenen Daten, die Sie uns z.B. per E-Mail mitteilen (z.B. Ihr Name und Ihre Adresse oder Ihre E-Mail-Adresse), werden wir weder an Dritte verkaufen noch anderweitig vermarkten. Ihre personenbezogenen Daten werden nur zur Korrespondenz mit Ihnen und nur für den Zweck verarbeitet, zu dem Sie uns die Daten zur Verfügung gestellt haben. Zur Abwicklung von Zahlungen geben wir Ihre Zahlungsdaten an das mit der Zahlung beauftragte Kreditinstitut weiter.</span><br>
@@ -103,22 +103,22 @@
                     <p style="text-align:left;">Wir versichern, dass wir Ihre personenbezogenen Daten im Übrigen nicht an Dritte weitergeben, es sei denn, dass wir dazu gesetzlich verpflichtet wären oder Sie uns vorher Ihre Zustimmung gegeben haben.
                     </p>
                 </li>
-                <li class="lhl" style="text-align:center;margin-bottom:18.0pt;"><span> </span>
-                    <p style="text-align:center;"><strong> </strong><strong>SSL- bzw. TLS-Verschlüsselung</strong>
+                <li class="lhl" style="margin-bottom:18.0pt;"><span> </span>
+                    <p ><strong> </strong><strong>SSL- bzw. TLS-Verschlüsselung</strong>
                     </p>
                 </li>
                 <li style="margin-bottom:18.0pt;" value="15"><span>Unsere Website benutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL-bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von „http://” auf „https://” wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.</span><br>
                 </li>
                 <li style="margin-bottom:18.0pt;" value="16"><span>Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.</span><br>
                 </li>
-                <li class="lh" style="text-align:center;margin-bottom:18.0pt;"><span> </span>
-                    <p style="text-align:center;margin-left:33.0pt;"><strong> </strong><strong>Speicherdauer</strong>
+                <li class="lh" style="margin-bottom:18.0pt;"><span> </span>
+                    <p style="margin-left:33.0pt;"><strong> </strong><strong>Speicherdauer</strong>
                     </p>
                 </li>
                 <li style="margin-bottom:18.0pt;" value="17"><span>Personenbezogene Daten, die uns über unsere Website mitgeteilt worden sind, werden nur so lange gespeichert, bis der Zweck erfüllt ist, zu dem sie uns anvertraut wurden. Soweit handels- und steuerrechtliche Aufbewahrungsfristen zu beachten sind, kann die Speicherdauer zu bestimmten Daten bis zu 10 Jahre betragen.</span><br>
                 </li>
-                <li class="lh" style="text-align:center;margin-bottom:18.0pt;"><span> </span>
-                    <p style="text-align:center;margin-left:33.0pt;"><strong> </strong><strong>Betroffenenrechte</strong>
+                <li class="lh" style="margin-bottom:18.0pt;"><span> </span>
+                    <p style="margin-left:33.0pt;"><strong> </strong><strong>Betroffenenrechte</strong>
                     </p>
                 </li>
                 <li style="margin-bottom:18.0pt;" value="18"><span>Hinsichtlich der Sie betreffenden personenbezogenen Daten haben als Betroffener der Datenverarbeitung nach Maßgabe der gesetzlichen Bestimmungen folgende Rechte gegenüber dem Verantwortlichen:<br></span><br>
@@ -199,10 +199,53 @@
                                 </li>
                                 <li style="margin-bottom:18.0pt;" value="2"><span>aufgrund von Rechtsvorschriften der Union oder der Mitgliedstaaten, denen der Verantwortliche unterliegt, zulässig ist und diese Rechtsvorschriften angemessene Maßnahmen zur Wahrung Ihrer Rechte und Freiheiten sowie Ihrer berechtigten Interessen enthalten oder</span><br>
                                 </li>
+                                </li>
+                                <li style="margin-bottom:0.0pt;" value="3"><span>mit Ihrer ausdrücklichen Einwilligung erfolgt.</span><br>
+                                        </li>
+                                    </ol>
+                                    <p style="text-align:left;"><br>Allerdings dürfen die Entscheidungen in den in (a) bis (c) genannten Fällen nicht auf besonderen Kategorien personenbezogener Daten nach Art. 9 Abs. 1 DSGVO beruhen, sofern nicht Art. 9 Abs. 2 lit. a oder lit. g gilt und angemessene Maßnahmen zum Schutz der Rechte und Freiheiten sowie Ihrer berechtigten Interessen getroffen wurden.
+                                    </p>
+                                    <p style="text-align:left;">In den in (a) und (c) genannten Fällen treffen wir angemessene Maßnahmen, um Ihre Rechte und Freiheiten sowie Ihre berechtigten Interessen zu wahren, wozu mindestens das Recht auf Erwirkung des Eingreifens einer Person seitens des Verantwortlichen, auf Darlegung des eigenen Standpunkts und auf Anfechtung der Entscheidung gehört.
+                                    </p>
+                                </li>
+                                <li style="margin-bottom:18.0pt;" value="8"><span> </span><strong>Recht auf Datenübertragbarkeit</strong><br><br>
+                                    <p style="text-align:left;">Sofern die Verarbeitung auf Ihrer Einwilligung gem. Art. 6 Abs. 1 lit. a DSGVO oder Art. 9 Abs. 2 lit. a DSGVO oder auf einem Vertrag gemäß Art. 6 Abs. 1 lit. b DSGVO beruht und mithilfe automatisierter Verfahren erfolgt, haben Sie das Recht, gemäß Art. 20 DSGVO Ihre personenbezogenen Daten, die Sie uns bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesebaren Format zu erhalten und einem anderen Verantwortlichen zu übermitteln oder die Übermittlung an einen anderen Verantwortlichen zu verlangen, soweit dies technisch machbar ist.
+                                    </p>
+                                </li>
+                                <li style="margin-bottom:18.0pt;" value="9"><span> </span><strong>Widerspruchsrecht</strong><br><br>
+                                    <p style="text-align:left;">Soweit wir die Verarbeitung Ihrer personenbezogenen Daten auf die Interessenabwägung nach Art. 6 Abs. 1 lit. f DSGVO stützen, haben Sie jederzeit das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, gegen die Verarbeitung Ihrer personenbezogenen Daten Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmung gestütztes Profiling. Die jeweilige Rechtsgrundlage, auf der eine Verarbeitung beruht, entnehmen Sie dieser Datenschutzerklärung. Wenn Sie Widerspruch einlegen, werden wir Ihre betroffenen personenbezogenen Daten nicht mehr verarbeiten, es sei denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten überwiegen oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen (Widerspruch nach Art. 21 Abs. 1 DSGVO).
+                                    </p>
+                                    <p style="text-align:left;">Werden Ihre personenbezogenen Daten verarbeitet, um Direktwerbung zu betreiben, so haben Sie das Recht, jederzeit Widerspruch gegen die Verarbeitung Sie betreffender personenbezogener Daten zum Zwecke derartiger Werbung einzulegen; dies gilt auch für das Profiling, soweit es mit solcher Direktwerbung in Verbindung steht. Wenn Sie widersprechen, werden Ihre personenbezogenen Daten anschließend nicht mehr zum Zwecke der Direktwerbung verwendet (Widerspruch nach Art. 21 Abs. 2 DSGVO).
+                                    </p>
+                                    <p style="text-align:left;">Sie haben die Möglichkeit, im Zusammenhang mit der Nutzung von Diensten der Informationsgesellschaft – ungeachtet der Richtlinie 2002/58/EG - Ihr Widerspruchsrecht mittels automatisierter Verfahren auszuüben, bei denen technische Spezifikationen verwendet werden.
+                                    </p>
+                                </li>
+                                <li style="margin-bottom:0.0pt;" value="10"><span> </span><strong>Beschwerderecht bei der zuständigen Aufsichtsbehörde gemäß Art. 77 DSGVO<br></strong><br>
+                                    <p style="text-align:left;">Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.
+                                    </p>
+                                    <p style="text-align:left;">Die für uns zuständige Aufsichtsbehörde ist:<br>
+                                    </p>
+                                    <p style="text-align:left;">Der Hessische Beauftragte für Datenschutz und Informationsfreiheit<br><br>Postfach 31 63<br>65021 Wiesbaden<br><br>Gustav-Stresemann-Ring 1<br>65189 Wiesbaden<br><br>Telefon: 06 11/140 80<br>E-Mail: poststelle@datenschutz.hessen.de<br>Internet: https://www.datenschutz.hessen.de
+                                    </p>
+                                </li>
                             </ol>
                         </li>
-                    </ol>
-                </li>
+                        <li class="lhl" style="margin-bottom:18.0pt;"><span> </span>
+                            <p ><strong> </strong><strong>Gültigkeit und Änderung dieser Datenschutzerklärung</strong>
+                            </p>
+                        </li>
+                        <li style="margin-bottom:18.0pt;" value="19"><span>Diese Datenschutzerklärung gilt ab dem 29. November 2025. Wir behalten uns das Recht vor, diese Datenschutzerklärung jederzeit unter Beachtung der geltenden Datenschutzvorschriften zu ändern. Dies kann z.B. zur Einhaltung neuer Gesetzesbestimmungen oder zur Berücksichtigung der Änderungen unserer Website bzw. neuer Dienstleistungen auf unserer Website erforderlich sein. Es gilt die zum Zeitpunkt Ihres Besuchs abrufbare Fassung.</span><br>
+                        </li>
+                        <li style="margin-bottom:0.0pt;" value="20"><span>Sollte diese Datenschutzerklärung geändert werden, beabsichtigen wir, Änderungen an unserer Datenschutzerklärung auf dieser Seite bekannt zu geben, sodass Sie umfassend darüber informiert sind, welche personenbezogene Daten wir sammeln, wie wir sie verarbeiten und unter welchen Umständen sie weitergegeben werden können.</span><br>
+                        </li>
+                    </ul>
+                    <div class=" header">
+                        <span class="content">Datenschutzerklärung</span></div><div class=" footer">
+                        <span class="pageNumbers">Seite <span class="currentPageNum"></span> von <span class="totalPageNum"></span></span></div>
+                        <span class="copyright">©2002-2025 RECHTSDOKUMENTE (Sequiter Inc.)</span></div><div class="LDCopyright">
+                                            <p>©2002-2025 RECHTSDOKUMENTE (Sequiter Inc.)</p>
+                    </div>
+				</div>
             </div>
         </main>
 
