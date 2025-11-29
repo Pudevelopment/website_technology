@@ -446,6 +446,13 @@ footer {
 }
 
 #Datenschutz{
+    #header-datenschutz{
+        text-align: center;
+    }
+    strong{
+        text-align: center;
+        text-decoration: underline;
+    }
     width: 80%;
     height: 87vh;
     margin: auto;
