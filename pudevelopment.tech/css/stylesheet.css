@@ -444,3 +444,13 @@ footer {
         }
     }
 }
+
+#datenschutz{
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    justify-content: center;
+    text-align: left;
+}
