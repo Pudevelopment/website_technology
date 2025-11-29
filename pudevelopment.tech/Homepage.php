@@ -30,7 +30,7 @@ if ($db === false) {
                 <?php if ($_SERVER['REQUEST_METHOD'] === 'POST'){
                                 if (isset($_POST['id'])){
                                     $id = intval($_POST['id']); 
-                                    $stmt = $db->prepare("SELECT * FROM SeilbahnDaten WHERE id = ?");
+                                    $stmt = $db->prepare("SELECT * FROM seilbahndaten WHERE id = ?");
                                     if ($stmt) {
                                         $stmt->bind_param("i", $id);
                                         $stmt->execute();
@@ -63,7 +63,7 @@ if ($db === false) {
                     <?php 
                         echo "<h2>Kabinenbahnen</h2>";
                         for ($i = 0; $i <= 4; $i++) {
-                            $stmt = $db->prepare("SELECT name, id FROM SeilbahnDaten WHERE typ_db = ?");
+                            $stmt = $db->prepare("SELECT name, id FROM seilbahndaten WHERE typ_db = ?");
                             $stmt->bind_param("i", $i);
                             $stmt->execute();
                             $result = $stmt->get_result();
@@ -119,7 +119,7 @@ if ($db === false) {
                         echo "<br>";
                         echo "<h2>Sessellifte</h2>";
                         for ($i = 5; $i <= 9; $i++) {
-                            $stmt = $db->prepare("SELECT name, id FROM SeilbahnDaten WHERE typ_db = ?");
+                            $stmt = $db->prepare("SELECT name, id FROM seilbahndaten WHERE typ_db = ?");
                             $stmt->bind_param("i", $i);
                             $stmt->execute();
                             $result = $stmt->get_result();
@@ -183,7 +183,7 @@ if ($db === false) {
                                 //echo "<h3>Keine Einträge für typ_db = {$i}</h3>";
                             }
                         }
-                        $stmt = $db->prepare("SELECT name, id FROM SeilbahnDaten WHERE typ_db = 10");
+                        $stmt = $db->prepare("SELECT name, id FROM seilbahndaten WHERE typ_db = 10");
                         $stmt->execute();
                         $result = $stmt->get_result();
                         if($result != NULL){
@@ -201,7 +201,7 @@ if ($db === false) {
                     <?php   if ($_SERVER['REQUEST_METHOD'] === 'POST'){
                                 if (isset($_POST['id'])){
                                     $id = intval($_POST['id']); 
-                                    $stmt = $db->prepare("SELECT * FROM SeilbahnDaten WHERE id = ?");
+                                    $stmt = $db->prepare("SELECT * FROM seilbahndaten WHERE id = ?");
                                     $stmt->bind_param("i", $id); 
                                     $stmt->execute();
                                     $result = $stmt->get_result();

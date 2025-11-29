@@ -297,8 +297,8 @@ require_once "config.php";
             });
 
             document.getElementById('btn-datenbank').addEventListener('click', function() {
-                if(confirm("HINWEIS: \nSie werden zur Datenbank weitergeleitet.\nEs gibt keine direkte Verlinkung zu dieser Seite zurück.") == true){
-                    window.location.href = 'http://localhost/phpmyadmin/';
+                if(confirm("HINWEIS: \nEine Weiterleitung zur Datenbank ist nicht möglich.") == true){
+                    window.location.href = '';
                 }
             });
 
