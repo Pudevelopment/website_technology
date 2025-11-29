@@ -455,9 +455,18 @@ footer {
         text-decoration: none !important; 
     }
     #rechte-datenschutz{
-        text-align: left;
+        text-align: center;
         margin-bottom: 20px;
         text-decoration: none !important;
+        justify-content: space-around;
+        ol, ul{
+        list-style-position: inside;
+        }
+        #adress-datenschutz{
+            text-align: center !important;
+            margin-bottom: 20px !important;
+            text-decoration: none !important; 
+        }
     }
     .lhl{
         text-align: center;
