@@ -16,7 +16,7 @@ if ($db === false) {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
-        <title>Home</title>
+        <title>Seilbahnen</title>
         <link rel="icon" type="image/jpg"
         href="images/icons/cable-car.png">
     </head>
@@ -51,7 +51,7 @@ if ($db === false) {
                                     echo "Ungültige ID.";
                                 }
                             }else{
-                                echo "<h1>Willkommen</h1>";
+                                echo "<h1>Seilbahnen</h1>";
                             }
                 ?>
                 <div id="logout">
