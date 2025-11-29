@@ -30,8 +30,10 @@
                         <p><strong>Verantwortliche Stelle</strong>
                         </p>
                     </li>
-                    <li style="margin-bottom:18.0pt;" value="2"><span>Datenschutzrechtlich verantwortlich für die Erhebung und Verarbeitung von personenbezogenen Daten auf dieser Website ist:</span><br><br><strong>Vorname, Name: </strong>Philipp Uhlendorf<br><strong>Straße, Hausnummer: </strong>An der Mohrsmühle 34<br><strong>Postleitzahl, Ort: </strong>Eppstein<br><strong>Land: </strong>Deutschland<br><strong>E-Mail: </strong>pu-ol@gmx.de<br>
-                    </li>
+                    <div id="adress-datenschutz">
+                        <li style="margin-bottom:18.0pt;" value="2"><span>Datenschutzrechtlich verantwortlich für die Erhebung und Verarbeitung von personenbezogenen Daten auf dieser Website ist:</span><br><br><strong>Vorname, Name: </strong>Philipp Uhlendorf<br><strong>Straße, Hausnummer: </strong>An der Mohrsmühle 34<br><strong>Postleitzahl, Ort: </strong>Eppstein<br><strong>Land: </strong>Deutschland<br><strong>E-Mail: </strong>pu-ol@gmx.de<br>
+                        </li>
+                    </div>
                     <li class="lhl" style="margin-bottom:18.0pt;"><span> </span>
                         <p ><strong>Zugriffsdaten (Server-Logfiles)</strong>
                         </p>
@@ -121,115 +123,119 @@
                     <p style="margin-left:33.0pt;"><strong> </strong><strong>Betroffenenrechte</strong>
                     </p>
                 </li>
-                <li style="margin-bottom:18.0pt;" value="18"><span>Hinsichtlich der Sie betreffenden personenbezogenen Daten haben als Betroffener der Datenverarbeitung nach Maßgabe der gesetzlichen Bestimmungen folgende Rechte gegenüber dem Verantwortlichen:<br></span><br>
-                    <ol start="1" class=" subnumberedList">
-                        <li style="margin-bottom:18.0pt;" value="1"><span> </span><strong>Widerrufsrecht</strong><br><br>
-                            <p style="text-align:left;">Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sofern die Verarbeitung Ihrer Daten auf Ihrer Einwilligung beruht, haben Sie das Recht, eine einmal erteilte Einwilligung in die Verarbeitung von Daten gemäß Art. 7 Abs. 3 DSGVO jederzeit mit Wirkung für die Zukunft zu widerrufen. Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt. Speicherung der Daten für Abrechnungs- und buchhalterische Zwecke bleibt von einem Widerruf nicht berührt.
-                            </p>
-                        </li>
-                        <li style="margin-bottom:18.0pt;" value="2"><span> </span><strong>Auskunftsrecht</strong><br><br>
-                            <p style="text-align:left;">Sie haben das Recht, gemäß Art. 15 DSGVO von uns eine Bestätigung darüber zu verlangen, ob wir personenbezogene Daten verarbeiten, die Sie betreffen. Liegt eine solche Verarbeitung vor, haben Sie das Recht auf Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten, die Verarbeitungszwecke, die Kategorien der verarbeiteten personenbezogenen Daten, die Empfänger oder Kategorien von Empfängern, gegenüber denen Ihre Daten offengelegt wurden oder werden, die geplante Speicherdauer bzw. die Kriterien für die Festlegung der Speicherdauer, das Bestehen eines Rechts auf Berichtigung, Löschung, Einschränkung der Verarbeitung, Widerspruch gegen die Verarbeitung, Beschwerde bei einer Aufsichtsbehörde, die Herkunft Ihrer Daten, wenn diese nicht durch uns bei Ihnen erhoben wurden, das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling und ggf. aussagekräftige Informationen über die involvierte Logik und die Sie betreffende Tragweite und die angestrebten Auswirkungen einer solchen Verarbeitung, sowie Ihr Recht auf Unterrichtung, welche Garantien gemäß Art. 46 DSGVO bei Weiterleitung Ihrer Daten in Drittländer bestehen.
-                            </p>
-                        </li>
-                        <li style="margin-bottom:18.0pt;" value="3"><span> </span><strong>Recht auf Berichtigung</strong><br><br>
-                            <p style="text-align:left;">Sie haben das Recht, gemäß Art. 16 DSGVO jederzeit unverzügliche Berichtigung Sie betreffender unrichtiger personenbezogener Daten und/oder die Vervollständigung Ihrer unvollständigen Daten zu verlangen.
-                            </p>
-                        </li>
-                        <li style="margin-bottom:18.0pt;" value="4"><span> </span><strong>Recht auf Löschung</strong><br><br>
-                            <p style="text-align:left;">Sie haben das Recht, gemäß Art. 17 DSGVO die Löschung Ihrer personenbezogenen Daten zu verlangen, sofern einer der folgenden Gründe zutrifft:
-                            </p>
-                            <ol start="1" class=" recital">
-                                <li style="margin-bottom:18.0pt;" value="1"><span>Ihre personenbezogenen Daten sind für die Zwecke, für die sie erhoben oder auf sonstige Weise verarbeitet wurden, nicht mehr notwendig.</span><br>
-                                </li>
-                                <li style="margin-bottom:18.0pt;" value="2"><span>Sie widerrufen Ihre Einwilligung, auf die sich die Verarbeitung gemäß Art. 6 Abs. 1 lit. a oder Art. 9 Abs. 2 lit. a DSGVO stützte, und es fehlt an einer anderweitigen Rechtsgrundlage für die Verarbeitung.</span><br>
-                                </li>
-                                <li style="margin-bottom:18.0pt;" value="3"><span>Sie legen gemäß Art. 21 Abs. 1 DSGVO Widerspruch gegen die Verarbeitung ein und es liegen keine vorrangigen berechtigten Gründe für die Verarbeitung vor, oder Sie legen gemäß Art. 21 Abs. 2 DSGVO Widerspruch gegen die Verarbeitung ein.</span><br>
-                                </li>
-                                <li style="margin-bottom:18.0pt;" value="4"><span>Die personenbezogenen Daten wurden unrechtmäßig verarbeitet.</span><br>
-                                </li>
-                                <li style="margin-bottom:18.0pt;" value="5"><span>Die Löschung der personenbezogenen Daten ist zur Erfüllung einer rechtlichen Verpflichtung nach dem Unionsrecht oder dem Recht des Mitgliedstaates erforderlich, dem wir unterliegen.</span><br>
-                                </li>
-                                <li style="margin-bottom:0.0pt;" value="6"><span>Die personenbezogenen Daten wurden in Bezug auf angebotene Dienste der Informationsgesellschaft gemäß Art. 8 Abs. 1 DSGVO erhoben.</span><br>
-                                </li>
-                            </ol>
-                            <p style="text-align:left;"><br>Dieses Recht besteht jedoch nicht, soweit die Verarbeitung erforderlich ist: 
-                            </p>
-                            <ol start="1">
-                                <li style="margin-bottom:18.0pt;" value="1"><span>zur Ausübung des Rechts auf freie Meinungsäußerung und Information;</span><br>
-                                </li>
-                                <li style="margin-bottom:18.0pt;" value="2"><span>zur Erfüllung einer rechtlichen Verpflichtung, die die Verarbeitung nach dem Recht der Union oder des Mitgliedstaates, dem wir unterliegen, erfordert, oder zur Wahrnehmung einer Aufgabe, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die uns übertragen wurde;</span><br>
-                                </li>
-                                <li style="margin-bottom:18.0pt;" value="3"><span>aus Gründen des öffentlichen Interesses im Bereich der öffentlichen Gesundheit gemäß Art. 9 Abs. 2 lit. h und i sowie Art. 9 Abs. 3 DSGVO;</span><br>
-                                </li>
-                                <li style="margin-bottom:18.0pt;" value="4"><span>für im öffentlichen Interesse liegende Archivzwecke, wissenschaftliche oder historische Forschungszwecke oder für statistische Zwecke gemäß Art. 89 Abs. 1 DSGVO, soweit das Betroffenenrecht voraussichtlich die Verwirklichung der Ziele dieser Verarbeitung unmöglich macht oder ernsthaft beeinträchtigt, oder</span><br>
-                                </li>
-                                <li style="margin-bottom:0.0pt;" value="5"><span>zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.</span><br>
-                                </li>
-                            </ol>
-                            <p style="text-align:left;"><br>Haben wir Ihre personenbezogenen Daten öffentlich gemacht und sind wir nach Vorstehendem zu deren Löschung verpflichtet, so treffen wir unter Berücksichtigung der verfügbaren Technologie und der Implementierungskosten angemessene Maßnahmen, auch technischer Art, um für die Datenverarbeitung Verantwortliche, die die personenbezogenen Daten verarbeiten, darüber zu informieren, dass Sie als betroffene Person von ihnen die Löschung aller Links zu Ihren personenbezogenen Daten oder von Kopien oder Replikationen dieser personenbezogenen Daten verlangt haben.
-                            </p>
-                        </li>
-                        <li style="margin-bottom:18.0pt;" value="5"><span> </span><strong>Recht auf Einschränkung der Verarbeitung</strong><br><br>
-                            <p style="text-align:left;">Sie haben das Recht, gemäß Art. 18 DSGVO die Einschränkung der Verarbeitung (Sperrung) Ihrer personenbezogenen Daten zu verlangen. Hierzu können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden. Das Recht auf Einschränkung der Verarbeitung besteht in folgenden Fällen:<br>
-                            </p>
-                            <ol start="1" class=" recital">
-                                <li style="margin-bottom:18.0pt;" value="1"><span>Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten personenbezogenen Daten bestreiten, benötigen wir in der Regel Zeit, um dies zu überprüfen. Für die Dauer der Prüfung haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. </span><br>
-                                </li>
-                                <li style="margin-bottom:18.0pt;" value="2"><span>Wenn die Verarbeitung Ihrer personenbezogenen Daten unrechtmäßig geschah / geschieht, können Sie statt der Löschung die Einschränkung der Datenverarbeitung verlangen. </span><br>
-                                </li>
-                                <li style="margin-bottom:18.0pt;" value="3"><span>Wenn wir Ihre personenbezogenen Daten nicht mehr benötigen, Sie sie jedoch zur Ausübung, Verteidigung oder Geltendmachung von Rechtsansprüchen benötigen, haben Sie das Recht, statt der Löschung die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. </span><br>
-                                </li>
-                                <li style="margin-bottom:0.0pt;" value="4"><span>Wenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt haben, muss eine Abwägung zwischen Ihren und unseren Interessen vorgenommen werden. Solange noch nicht feststeht, wessen Interessen überwiegen, haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.</span><br>
-                                </li>
-                            </ol>
-                            <p style="text-align:left;"><br>Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese Daten – von ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der EU oder eines Mitgliedstaats verarbeitet werden.
-                            </p>
-                        </li>
-                        <li style="margin-bottom:18.0pt;" value="6"><span> </span><strong>Recht auf Unterrichtung</strong><br><br>
-                            <p style="text-align:left;">Haben Sie das Recht auf Berichtigung, Löschung oder Einschränkung der Verarbeitung gegenüber uns geltend gemacht, sind wir verpflichtet, allen Empfängern, denen Ihre personenbezogenen Daten offengelegt wurden, diese Berichtigung oder Löschung der Daten oder Einschränkung der Verarbeitung mitzuteilen, es sei denn, dies erweist sich als unmöglich oder ist mit einem unverhältnismäßigen Aufwand verbunden. Ihnen steht gemäß Art. 19 DSGVO das Recht zu, nach Verlangen über diese Empfänger unterrichtet zu werden.
-                            </p>
-                        </li>
-                        <li style="margin-bottom:18.0pt;" value="7"><span> </span><strong>Recht, nicht einer ausschließlich auf einer automatisierten Verarbeitung – einschließlich Profiling – beruhenden Entscheidung unterworfen zu werden</strong><br><br>
-                            <p style="text-align:left;">Sie haben das Recht, gemäß Art. 22 DSGVO nicht einer ausschließlich auf einer automatisierten Verarbeitung – einschließlich Profiling – beruhenden Entscheidung unterworfen zu werden, die Ihnen gegenüber rechtliche Wirkung entfaltet oder Sie in ähnlicher Weise erheblich beeinträchtigt.
-                            </p>
-                            <p style="text-align:left;">Dies gilt nicht, wenn die Entscheidung
-                            </p>
-                            <ol start="1" class=" recital">
-                                <li style="margin-bottom:18.0pt;" value="1"><span>für den Abschluss oder die Erfüllung eines Vertrags zwischen Ihnen und uns erforderlich ist,</span><br>
-                                </li>
-                                <li style="margin-bottom:18.0pt;" value="2"><span>aufgrund von Rechtsvorschriften der Union oder der Mitgliedstaaten, denen der Verantwortliche unterliegt, zulässig ist und diese Rechtsvorschriften angemessene Maßnahmen zur Wahrung Ihrer Rechte und Freiheiten sowie Ihrer berechtigten Interessen enthalten oder</span><br>
-                                </li>
-                                </li>
-                                <li style="margin-bottom:0.0pt;" value="3"><span>mit Ihrer ausdrücklichen Einwilligung erfolgt.</span><br>
-                                        </li>
-                                    </ol>
-                                    <p style="text-align:left;"><br>Allerdings dürfen die Entscheidungen in den in (a) bis (c) genannten Fällen nicht auf besonderen Kategorien personenbezogener Daten nach Art. 9 Abs. 1 DSGVO beruhen, sofern nicht Art. 9 Abs. 2 lit. a oder lit. g gilt und angemessene Maßnahmen zum Schutz der Rechte und Freiheiten sowie Ihrer berechtigten Interessen getroffen wurden.
-                                    </p>
-                                    <p style="text-align:left;">In den in (a) und (c) genannten Fällen treffen wir angemessene Maßnahmen, um Ihre Rechte und Freiheiten sowie Ihre berechtigten Interessen zu wahren, wozu mindestens das Recht auf Erwirkung des Eingreifens einer Person seitens des Verantwortlichen, auf Darlegung des eigenen Standpunkts und auf Anfechtung der Entscheidung gehört.
-                                    </p>
-                                </li>
-                                <li style="margin-bottom:18.0pt;" value="8"><span> </span><strong>Recht auf Datenübertragbarkeit</strong><br><br>
-                                    <p style="text-align:left;">Sofern die Verarbeitung auf Ihrer Einwilligung gem. Art. 6 Abs. 1 lit. a DSGVO oder Art. 9 Abs. 2 lit. a DSGVO oder auf einem Vertrag gemäß Art. 6 Abs. 1 lit. b DSGVO beruht und mithilfe automatisierter Verfahren erfolgt, haben Sie das Recht, gemäß Art. 20 DSGVO Ihre personenbezogenen Daten, die Sie uns bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesebaren Format zu erhalten und einem anderen Verantwortlichen zu übermitteln oder die Übermittlung an einen anderen Verantwortlichen zu verlangen, soweit dies technisch machbar ist.
-                                    </p>
-                                </li>
-                                <li style="margin-bottom:18.0pt;" value="9"><span> </span><strong>Widerspruchsrecht</strong><br><br>
-                                    <p style="text-align:left;">Soweit wir die Verarbeitung Ihrer personenbezogenen Daten auf die Interessenabwägung nach Art. 6 Abs. 1 lit. f DSGVO stützen, haben Sie jederzeit das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, gegen die Verarbeitung Ihrer personenbezogenen Daten Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmung gestütztes Profiling. Die jeweilige Rechtsgrundlage, auf der eine Verarbeitung beruht, entnehmen Sie dieser Datenschutzerklärung. Wenn Sie Widerspruch einlegen, werden wir Ihre betroffenen personenbezogenen Daten nicht mehr verarbeiten, es sei denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten überwiegen oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen (Widerspruch nach Art. 21 Abs. 1 DSGVO).
-                                    </p>
-                                    <p style="text-align:left;">Werden Ihre personenbezogenen Daten verarbeitet, um Direktwerbung zu betreiben, so haben Sie das Recht, jederzeit Widerspruch gegen die Verarbeitung Sie betreffender personenbezogener Daten zum Zwecke derartiger Werbung einzulegen; dies gilt auch für das Profiling, soweit es mit solcher Direktwerbung in Verbindung steht. Wenn Sie widersprechen, werden Ihre personenbezogenen Daten anschließend nicht mehr zum Zwecke der Direktwerbung verwendet (Widerspruch nach Art. 21 Abs. 2 DSGVO).
-                                    </p>
-                                    <p style="text-align:left;">Sie haben die Möglichkeit, im Zusammenhang mit der Nutzung von Diensten der Informationsgesellschaft – ungeachtet der Richtlinie 2002/58/EG - Ihr Widerspruchsrecht mittels automatisierter Verfahren auszuüben, bei denen technische Spezifikationen verwendet werden.
-                                    </p>
-                                </li>
-                                <li style="margin-bottom:0.0pt;" value="10"><span> </span><strong>Beschwerderecht bei der zuständigen Aufsichtsbehörde gemäß Art. 77 DSGVO<br></strong><br>
-                                    <p style="text-align:left;">Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.
-                                    </p>
-                                    <p style="text-align:left;">Die für uns zuständige Aufsichtsbehörde ist:<br>
-                                    </p>
-                                    <p style="text-align:left;">Der Hessische Beauftragte für Datenschutz und Informationsfreiheit<br><br>Postfach 31 63<br>65021 Wiesbaden<br><br>Gustav-Stresemann-Ring 1<br>65189 Wiesbaden<br><br>Telefon: 06 11/140 80<br>E-Mail: poststelle@datenschutz.hessen.de<br>Internet: https://www.datenschutz.hessen.de
-                                    </p>
-                                </li>
-                            </ol>
-                        </li>
+                <div id="rechte-datenschutz">
+                    <li style="margin-bottom:18.0pt;" value="18"><span>Hinsichtlich der Sie betreffenden personenbezogenen Daten haben als Betroffener der Datenverarbeitung nach Maßgabe der gesetzlichen Bestimmungen folgende Rechte gegenüber dem Verantwortlichen:<br></span><br>
+                        <ol start="1" class=" subnumberedList">
+                            <li style="margin-bottom:18.0pt;" value="1"><span> </span><strong>Widerrufsrecht</strong><br><br>
+                                <p style="text-align:left;">Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sofern die Verarbeitung Ihrer Daten auf Ihrer Einwilligung beruht, haben Sie das Recht, eine einmal erteilte Einwilligung in die Verarbeitung von Daten gemäß Art. 7 Abs. 3 DSGVO jederzeit mit Wirkung für die Zukunft zu widerrufen. Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt. Speicherung der Daten für Abrechnungs- und buchhalterische Zwecke bleibt von einem Widerruf nicht berührt.
+                                </p>
+                            </li>
+                            <li style="margin-bottom:18.0pt;" value="2"><span> </span><strong>Auskunftsrecht</strong><br><br>
+                                <p style="text-align:left;">Sie haben das Recht, gemäß Art. 15 DSGVO von uns eine Bestätigung darüber zu verlangen, ob wir personenbezogene Daten verarbeiten, die Sie betreffen. Liegt eine solche Verarbeitung vor, haben Sie das Recht auf Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten, die Verarbeitungszwecke, die Kategorien der verarbeiteten personenbezogenen Daten, die Empfänger oder Kategorien von Empfängern, gegenüber denen Ihre Daten offengelegt wurden oder werden, die geplante Speicherdauer bzw. die Kriterien für die Festlegung der Speicherdauer, das Bestehen eines Rechts auf Berichtigung, Löschung, Einschränkung der Verarbeitung, Widerspruch gegen die Verarbeitung, Beschwerde bei einer Aufsichtsbehörde, die Herkunft Ihrer Daten, wenn diese nicht durch uns bei Ihnen erhoben wurden, das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling und ggf. aussagekräftige Informationen über die involvierte Logik und die Sie betreffende Tragweite und die angestrebten Auswirkungen einer solchen Verarbeitung, sowie Ihr Recht auf Unterrichtung, welche Garantien gemäß Art. 46 DSGVO bei Weiterleitung Ihrer Daten in Drittländer bestehen.
+                                </p>
+                            </li>
+                            <li style="margin-bottom:18.0pt;" value="3"><span> </span><strong>Recht auf Berichtigung</strong><br><br>
+                                <p style="text-align:left;">Sie haben das Recht, gemäß Art. 16 DSGVO jederzeit unverzügliche Berichtigung Sie betreffender unrichtiger personenbezogener Daten und/oder die Vervollständigung Ihrer unvollständigen Daten zu verlangen.
+                                </p>
+                            </li>
+                            <li style="margin-bottom:18.0pt;" value="4"><span> </span><strong>Recht auf Löschung</strong><br><br>
+                                <p style="text-align:left;">Sie haben das Recht, gemäß Art. 17 DSGVO die Löschung Ihrer personenbezogenen Daten zu verlangen, sofern einer der folgenden Gründe zutrifft:
+                                </p>
+                                <ol start="1" class=" recital">
+                                    <li style="margin-bottom:18.0pt;" value="1"><span>Ihre personenbezogenen Daten sind für die Zwecke, für die sie erhoben oder auf sonstige Weise verarbeitet wurden, nicht mehr notwendig.</span><br>
+                                    </li>
+                                    <li style="margin-bottom:18.0pt;" value="2"><span>Sie widerrufen Ihre Einwilligung, auf die sich die Verarbeitung gemäß Art. 6 Abs. 1 lit. a oder Art. 9 Abs. 2 lit. a DSGVO stützte, und es fehlt an einer anderweitigen Rechtsgrundlage für die Verarbeitung.</span><br>
+                                    </li>
+                                    <li style="margin-bottom:18.0pt;" value="3"><span>Sie legen gemäß Art. 21 Abs. 1 DSGVO Widerspruch gegen die Verarbeitung ein und es liegen keine vorrangigen berechtigten Gründe für die Verarbeitung vor, oder Sie legen gemäß Art. 21 Abs. 2 DSGVO Widerspruch gegen die Verarbeitung ein.</span><br>
+                                    </li>
+                                    <li style="margin-bottom:18.0pt;" value="4"><span>Die personenbezogenen Daten wurden unrechtmäßig verarbeitet.</span><br>
+                                    </li>
+                                    <li style="margin-bottom:18.0pt;" value="5"><span>Die Löschung der personenbezogenen Daten ist zur Erfüllung einer rechtlichen Verpflichtung nach dem Unionsrecht oder dem Recht des Mitgliedstaates erforderlich, dem wir unterliegen.</span><br>
+                                    </li>
+                                    <li style="margin-bottom:0.0pt;" value="6"><span>Die personenbezogenen Daten wurden in Bezug auf angebotene Dienste der Informationsgesellschaft gemäß Art. 8 Abs. 1 DSGVO erhoben.</span><br>
+                                    </li>
+                                </ol>
+                                <p style="text-align:left;"><br>Dieses Recht besteht jedoch nicht, soweit die Verarbeitung erforderlich ist: 
+                                </p>
+                                <ol start="1">
+                                    <li style="margin-bottom:18.0pt;" value="1"><span>zur Ausübung des Rechts auf freie Meinungsäußerung und Information;</span><br>
+                                    </li>
+                                    <li style="margin-bottom:18.0pt;" value="2"><span>zur Erfüllung einer rechtlichen Verpflichtung, die die Verarbeitung nach dem Recht der Union oder des Mitgliedstaates, dem wir unterliegen, erfordert, oder zur Wahrnehmung einer Aufgabe, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die uns übertragen wurde;</span><br>
+                                    </li>
+                                    <li style="margin-bottom:18.0pt;" value="3"><span>aus Gründen des öffentlichen Interesses im Bereich der öffentlichen Gesundheit gemäß Art. 9 Abs. 2 lit. h und i sowie Art. 9 Abs. 3 DSGVO;</span><br>
+                                    </li>
+                                    <li style="margin-bottom:18.0pt;" value="4"><span>für im öffentlichen Interesse liegende Archivzwecke, wissenschaftliche oder historische Forschungszwecke oder für statistische Zwecke gemäß Art. 89 Abs. 1 DSGVO, soweit das Betroffenenrecht voraussichtlich die Verwirklichung der Ziele dieser Verarbeitung unmöglich macht oder ernsthaft beeinträchtigt, oder</span><br>
+                                    </li>
+                                    <li style="margin-bottom:0.0pt;" value="5"><span>zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.</span><br>
+                                    </li>
+                                </ol>
+                                <p style="text-align:left;"><br>Haben wir Ihre personenbezogenen Daten öffentlich gemacht und sind wir nach Vorstehendem zu deren Löschung verpflichtet, so treffen wir unter Berücksichtigung der verfügbaren Technologie und der Implementierungskosten angemessene Maßnahmen, auch technischer Art, um für die Datenverarbeitung Verantwortliche, die die personenbezogenen Daten verarbeiten, darüber zu informieren, dass Sie als betroffene Person von ihnen die Löschung aller Links zu Ihren personenbezogenen Daten oder von Kopien oder Replikationen dieser personenbezogenen Daten verlangt haben.
+                                </p>
+                            </li>
+                            <li style="margin-bottom:18.0pt;" value="5"><span> </span><strong>Recht auf Einschränkung der Verarbeitung</strong><br><br>
+                                <p style="text-align:left;">Sie haben das Recht, gemäß Art. 18 DSGVO die Einschränkung der Verarbeitung (Sperrung) Ihrer personenbezogenen Daten zu verlangen. Hierzu können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden. Das Recht auf Einschränkung der Verarbeitung besteht in folgenden Fällen:<br>
+                                </p>
+                                <ol start="1" class=" recital">
+                                    <li style="margin-bottom:18.0pt;" value="1"><span>Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten personenbezogenen Daten bestreiten, benötigen wir in der Regel Zeit, um dies zu überprüfen. Für die Dauer der Prüfung haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. </span><br>
+                                    </li>
+                                    <li style="margin-bottom:18.0pt;" value="2"><span>Wenn die Verarbeitung Ihrer personenbezogenen Daten unrechtmäßig geschah / geschieht, können Sie statt der Löschung die Einschränkung der Datenverarbeitung verlangen. </span><br>
+                                    </li>
+                                    <li style="margin-bottom:18.0pt;" value="3"><span>Wenn wir Ihre personenbezogenen Daten nicht mehr benötigen, Sie sie jedoch zur Ausübung, Verteidigung oder Geltendmachung von Rechtsansprüchen benötigen, haben Sie das Recht, statt der Löschung die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. </span><br>
+                                    </li>
+                                    <li style="margin-bottom:0.0pt;" value="4"><span>Wenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt haben, muss eine Abwägung zwischen Ihren und unseren Interessen vorgenommen werden. Solange noch nicht feststeht, wessen Interessen überwiegen, haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.</span><br>
+                                    </li>
+                                </ol>
+                                <p style="text-align:left;"><br>Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese Daten – von ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der EU oder eines Mitgliedstaats verarbeitet werden.
+                                </p>
+                            </li>
+                            <li style="margin-bottom:18.0pt;" value="6"><span> </span><strong>Recht auf Unterrichtung</strong><br><br>
+                                <p style="text-align:left;">Haben Sie das Recht auf Berichtigung, Löschung oder Einschränkung der Verarbeitung gegenüber uns geltend gemacht, sind wir verpflichtet, allen Empfängern, denen Ihre personenbezogenen Daten offengelegt wurden, diese Berichtigung oder Löschung der Daten oder Einschränkung der Verarbeitung mitzuteilen, es sei denn, dies erweist sich als unmöglich oder ist mit einem unverhältnismäßigen Aufwand verbunden. Ihnen steht gemäß Art. 19 DSGVO das Recht zu, nach Verlangen über diese Empfänger unterrichtet zu werden.
+                                </p>
+                            </li>
+                            <li style="margin-bottom:18.0pt;" value="7"><span> </span><strong>Recht, nicht einer ausschließlich auf einer automatisierten Verarbeitung – einschließlich Profiling – beruhenden Entscheidung unterworfen zu werden</strong><br><br>
+                                <p style="text-align:left;">Sie haben das Recht, gemäß Art. 22 DSGVO nicht einer ausschließlich auf einer automatisierten Verarbeitung – einschließlich Profiling – beruhenden Entscheidung unterworfen zu werden, die Ihnen gegenüber rechtliche Wirkung entfaltet oder Sie in ähnlicher Weise erheblich beeinträchtigt.
+                                </p>
+                                <p style="text-align:left;">Dies gilt nicht, wenn die Entscheidung
+                                </p>
+                                <ol start="1" class=" recital">
+                                    <li style="margin-bottom:18.0pt;" value="1"><span>für den Abschluss oder die Erfüllung eines Vertrags zwischen Ihnen und uns erforderlich ist,</span><br>
+                                    </li>
+                                    <li style="margin-bottom:18.0pt;" value="2"><span>aufgrund von Rechtsvorschriften der Union oder der Mitgliedstaaten, denen der Verantwortliche unterliegt, zulässig ist und diese Rechtsvorschriften angemessene Maßnahmen zur Wahrung Ihrer Rechte und Freiheiten sowie Ihrer berechtigten Interessen enthalten oder</span><br>
+                                    </li>
+                                    </li>
+                                    <li style="margin-bottom:0.0pt;" value="3"><span>mit Ihrer ausdrücklichen Einwilligung erfolgt.</span><br>
+                                            </li>
+                                        </ol>
+                                        <p style="text-align:left;"><br>Allerdings dürfen die Entscheidungen in den in (a) bis (c) genannten Fällen nicht auf besonderen Kategorien personenbezogener Daten nach Art. 9 Abs. 1 DSGVO beruhen, sofern nicht Art. 9 Abs. 2 lit. a oder lit. g gilt und angemessene Maßnahmen zum Schutz der Rechte und Freiheiten sowie Ihrer berechtigten Interessen getroffen wurden.
+                                        </p>
+                                        <p style="text-align:left;">In den in (a) und (c) genannten Fällen treffen wir angemessene Maßnahmen, um Ihre Rechte und Freiheiten sowie Ihre berechtigten Interessen zu wahren, wozu mindestens das Recht auf Erwirkung des Eingreifens einer Person seitens des Verantwortlichen, auf Darlegung des eigenen Standpunkts und auf Anfechtung der Entscheidung gehört.
+                                        </p>
+                                    </li>
+                                    <li style="margin-bottom:18.0pt;" value="8"><span> </span><strong>Recht auf Datenübertragbarkeit</strong><br><br>
+                                        <p style="text-align:left;">Sofern die Verarbeitung auf Ihrer Einwilligung gem. Art. 6 Abs. 1 lit. a DSGVO oder Art. 9 Abs. 2 lit. a DSGVO oder auf einem Vertrag gemäß Art. 6 Abs. 1 lit. b DSGVO beruht und mithilfe automatisierter Verfahren erfolgt, haben Sie das Recht, gemäß Art. 20 DSGVO Ihre personenbezogenen Daten, die Sie uns bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesebaren Format zu erhalten und einem anderen Verantwortlichen zu übermitteln oder die Übermittlung an einen anderen Verantwortlichen zu verlangen, soweit dies technisch machbar ist.
+                                        </p>
+                                    </li>
+                                    <li style="margin-bottom:18.0pt;" value="9"><span> </span><strong>Widerspruchsrecht</strong><br><br>
+                                        <p style="text-align:left;">Soweit wir die Verarbeitung Ihrer personenbezogenen Daten auf die Interessenabwägung nach Art. 6 Abs. 1 lit. f DSGVO stützen, haben Sie jederzeit das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, gegen die Verarbeitung Ihrer personenbezogenen Daten Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmung gestütztes Profiling. Die jeweilige Rechtsgrundlage, auf der eine Verarbeitung beruht, entnehmen Sie dieser Datenschutzerklärung. Wenn Sie Widerspruch einlegen, werden wir Ihre betroffenen personenbezogenen Daten nicht mehr verarbeiten, es sei denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten überwiegen oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen (Widerspruch nach Art. 21 Abs. 1 DSGVO).
+                                        </p>
+                                        <p style="text-align:left;">Werden Ihre personenbezogenen Daten verarbeitet, um Direktwerbung zu betreiben, so haben Sie das Recht, jederzeit Widerspruch gegen die Verarbeitung Sie betreffender personenbezogener Daten zum Zwecke derartiger Werbung einzulegen; dies gilt auch für das Profiling, soweit es mit solcher Direktwerbung in Verbindung steht. Wenn Sie widersprechen, werden Ihre personenbezogenen Daten anschließend nicht mehr zum Zwecke der Direktwerbung verwendet (Widerspruch nach Art. 21 Abs. 2 DSGVO).
+                                        </p>
+                                        <p style="text-align:left;">Sie haben die Möglichkeit, im Zusammenhang mit der Nutzung von Diensten der Informationsgesellschaft – ungeachtet der Richtlinie 2002/58/EG - Ihr Widerspruchsrecht mittels automatisierter Verfahren auszuüben, bei denen technische Spezifikationen verwendet werden.
+                                        </p>
+                                    </li>
+                                    <li style="margin-bottom:0.0pt;" value="10"><span> </span><strong>Beschwerderecht bei der zuständigen Aufsichtsbehörde gemäß Art. 77 DSGVO<br></strong><br>
+                                        <div id="adress-datenschutz">
+                                            <p style="text-align:left;">Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.
+                                            </p>
+                                            <p style="text-align:left;">Die für uns zuständige Aufsichtsbehörde ist:<br>
+                                            </p>
+                                            <p style="text-align:left;">Der Hessische Beauftragte für Datenschutz und Informationsfreiheit<br><br>Postfach 31 63<br>65021 Wiesbaden<br><br>Gustav-Stresemann-Ring 1<br>65189 Wiesbaden<br><br>Telefon: 06 11/140 80<br>E-Mail: poststelle@datenschutz.hessen.de<br>Internet: https://www.datenschutz.hessen.de
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ol>
+                            </li>
+                        </div>
                         <li class="lhl" style="margin-bottom:18.0pt;"><span> </span>
                             <p ><strong> </strong><strong>Gültigkeit und Änderung dieser Datenschutzerklärung</strong>
                             </p>

@@ -449,6 +449,17 @@ footer {
     #header-datenschutz{
         text-align: center;
     }
+    #adress-datenschutz{
+        text-align: center;
+        margin-bottom: 20px;
+        text-decoration: none !important; 
+    }
+    #rechte-datenschutz{
+        text-align: left;
+        margin-bottom: 20px;
+        text-decoration: none !important;
+        justify-content: left !important;
+    }
     strong{
         text-align: center;
         text-decoration: underline;
@@ -459,5 +470,5 @@ footer {
     overflow-x: hidden;
     overflow-y: scroll;
     justify-content: center;
-    text-align: center;
+    text-align: left;
 }
