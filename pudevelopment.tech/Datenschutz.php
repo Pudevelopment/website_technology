@@ -30,7 +30,7 @@
                         <p><strong> </strong><strong>Verantwortliche Stelle</strong>
                         </p>
                     </li>
-                    <li style="margin-bottom:18.0pt;" value="2"><span>Datenschutzrechtlich verantwortlich für die Erhebung und Verarbeitung von personenbezogenen Daten auf dieser Website ist:</span><br><br><strong>Vorname, Name: </strong>Philipp Uhlendorf<br><strong>Straße, Hausnummer: </strong>An der Mohrsmühle 34<br><strong>Postleitzahl, Ort: </strong>Eppstein<br><strong>Land: </strong>Deutschland<br><strong>E-Mail: </strong>pu-ol@gmx.de<br><strong>Tel.: </strong>____________________________<br>
+                    <li style="margin-bottom:18.0pt;" value="2"><span>Datenschutzrechtlich verantwortlich für die Erhebung und Verarbeitung von personenbezogenen Daten auf dieser Website ist:</span><br><br><strong>Vorname, Name: </strong>Philipp Uhlendorf<br><strong>Straße, Hausnummer: </strong>An der Mohrsmühle 34<br><strong>Postleitzahl, Ort: </strong>Eppstein<br><strong>Land: </strong>Deutschland<br><strong>E-Mail: </strong>pu-ol@gmx.de<br>
                     </li>
                     <li class="lhl" style="text-align:center;margin-bottom:18.0pt;"><span> </span>
                         <p style="text-align:center;"><strong> </strong><strong>Zugriffsdaten (Server-Logfiles)</strong>
