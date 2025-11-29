@@ -251,6 +251,8 @@
                         <span class="pageNumbers">Seite <span class="currentPageNum"></span> von <span class="totalPageNum"></span></span></div>
                         <span class="copyright">©2002-2025 RECHTSDOKUMENTE (Sequiter Inc.)</span></div><div class="LDCopyright">
                                             <p>©2002-2025 RECHTSDOKUMENTE (Sequiter Inc.)</p>
+                                            <br>
+                                            <br>
                 </div>
             </div>
         </main>
