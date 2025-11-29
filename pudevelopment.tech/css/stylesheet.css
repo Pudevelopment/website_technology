@@ -460,9 +460,10 @@ footer {
         text-decoration: none !important;
         justify-content: left !important;
     }
-    strong{
+    .lhl{
         text-align: center;
         text-decoration: underline;
+        justify-content: space-around
     }
     width: 80%;
     height: 87vh;

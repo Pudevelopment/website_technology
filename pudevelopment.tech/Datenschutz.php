@@ -34,11 +34,11 @@
                         <li style="margin-bottom:18.0pt;" value="2"><span>Datenschutzrechtlich verantwortlich für die Erhebung und Verarbeitung von personenbezogenen Daten auf dieser Website ist:</span><br><br><strong>Vorname, Name: </strong>Philipp Uhlendorf<br><strong>Straße, Hausnummer: </strong>An der Mohrsmühle 34<br><strong>Postleitzahl, Ort: </strong>Eppstein<br><strong>Land: </strong>Deutschland<br><strong>E-Mail: </strong>pu-ol@gmx.de<br>
                         </li>
                     </div>
-                    <li class="lhl" style="margin-bottom:18.0pt;"><span> </span>
-                        <p ><strong>Zugriffsdaten (Server-Logfiles)</strong>
-                        </p>
-                    </li>
                 </div>
+                <li class="lhl" style="margin-bottom:18.0pt;"><span> </span>
+                    <p><strong>Zugriffsdaten (Server-Logfiles)</strong>
+                    </p>
+                </li>
                 <li style="margin-bottom:18.0pt;" value="3"><span>Beim Aufruf unserer Website erheben wir und speichern automatisch in sogenannten Server-Logfiles Zugriffsdaten, die Ihr Browser automatisch an uns übermittelt. Dies sind:</span><br>
                     <ul class=" bullet">
                         <li style="margin-bottom:18.0pt;" value="1"><span>Browsertyp und Browserversion Ihres PC</span><br>
@@ -114,13 +114,13 @@
                 <li style="margin-bottom:18.0pt;" value="16"><span>Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.</span><br>
                 </li>
                 <li class="lh" style="margin-bottom:18.0pt;"><span> </span>
-                    <p style="margin-left:33.0pt;"><strong> </strong><strong>Speicherdauer</strong>
+                    <p style="margin-left:33.0pt;"><strong>Speicherdauer</strong>
                     </p>
                 </li>
                 <li style="margin-bottom:18.0pt;" value="17"><span>Personenbezogene Daten, die uns über unsere Website mitgeteilt worden sind, werden nur so lange gespeichert, bis der Zweck erfüllt ist, zu dem sie uns anvertraut wurden. Soweit handels- und steuerrechtliche Aufbewahrungsfristen zu beachten sind, kann die Speicherdauer zu bestimmten Daten bis zu 10 Jahre betragen.</span><br>
                 </li>
-                <li class="lh" style="margin-bottom:18.0pt;"><span> </span>
-                    <p style="margin-left:33.0pt;"><strong> </strong><strong>Betroffenenrechte</strong>
+                <li class="lh"><span> </span>
+                    <p><strong>Betroffenenrechte</strong>
                     </p>
                 </li>
                 <div id="rechte-datenschutz">
@@ -245,13 +245,13 @@
                         <li style="margin-bottom:0.0pt;" value="20"><span>Sollte diese Datenschutzerklärung geändert werden, beabsichtigen wir, Änderungen an unserer Datenschutzerklärung auf dieser Seite bekannt zu geben, sodass Sie umfassend darüber informiert sind, welche personenbezogene Daten wir sammeln, wie wir sie verarbeiten und unter welchen Umständen sie weitergegeben werden können.</span><br>
                         </li>
                     </ul>
-                    <div class=" header">
+				</div>
+                <div class=" header">
                         <span class="content">Datenschutzerklärung</span></div><div class=" footer">
                         <span class="pageNumbers">Seite <span class="currentPageNum"></span> von <span class="totalPageNum"></span></span></div>
                         <span class="copyright">©2002-2025 RECHTSDOKUMENTE (Sequiter Inc.)</span></div><div class="LDCopyright">
                                             <p>©2002-2025 RECHTSDOKUMENTE (Sequiter Inc.)</p>
-                    </div>
-				</div>
+                </div>
             </div>
         </main>
 
