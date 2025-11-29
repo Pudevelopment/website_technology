@@ -458,12 +458,14 @@ footer {
         text-align: left;
         margin-bottom: 20px;
         text-decoration: none !important;
-        justify-content: left !important;
     }
     .lhl{
         text-align: center;
         text-decoration: underline;
-        justify-content: space-around
+        justify-content: space-around;
+    }
+    ol, ul{
+        list-style-position: inside;
     }
     width: 80%;
     height: 87vh;
