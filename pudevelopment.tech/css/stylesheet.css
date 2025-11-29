@@ -446,14 +446,11 @@ footer {
 }
 
 #Datenschutz{
-    #header-datenschutz{
-        text-align: center;
-    }
     width: 80%;
     height: 87vh;
     margin: auto;
     overflow-x: hidden;
     overflow-y: scroll;
     justify-content: center;
-    text-align: left;
+    text-align: center;
 }
