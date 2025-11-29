@@ -244,16 +244,10 @@
                         </li>
                         <li style="margin-bottom:0.0pt;" value="20"><span>Sollte diese Datenschutzerklärung geändert werden, beabsichtigen wir, Änderungen an unserer Datenschutzerklärung auf dieser Seite bekannt zu geben, sodass Sie umfassend darüber informiert sind, welche personenbezogene Daten wir sammeln, wie wir sie verarbeiten und unter welchen Umständen sie weitergegeben werden können.</span><br>
                         </li>
+                        <li style="margin-bottom:18.0pt;" value="21"><span>Diese Datenschutzerklärung wurde erstellt von ©2002-2025 RECHTSDOKUMENTE (Sequiter Inc.)</span><br>
+                        </li>
                     </ul>
 				</div>
-                <div class=" header">
-                        <span class="content">Datenschutzerklärung</span></div><div class=" footer">
-                        <span class="pageNumbers">Seite <span class="currentPageNum"></span> von <span class="totalPageNum"></span></span></div>
-                        <span class="copyright">©2002-2025 RECHTSDOKUMENTE (Sequiter Inc.)</span></div><div class="LDCopyright">
-                                            <p>©2002-2025 RECHTSDOKUMENTE (Sequiter Inc.)</p>
-                                            <br>
-                                            <br>
-                </div>
             </div>
         </main>
 

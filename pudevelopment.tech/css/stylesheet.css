@@ -450,8 +450,8 @@ footer {
         text-align: center;
     }
     #adress-datenschutz{
-        text-align: center;
-        margin-bottom: 20px;
+        text-align: center !important;
+        margin-bottom: 20px !important;
         text-decoration: none !important; 
     }
     #rechte-datenschutz{
