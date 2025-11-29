@@ -25,7 +25,7 @@ if ($db === false) {
         <div class="seilbahn">
             <header>
                 <div id="tohub">
-                    <input type="submit" class="btn-teriträr" name="submit" value="Zur Doppelmayr Smartcontrol" id="btn-tohub" >
+                    <input type="submit" class="btn-teriträr" name="submit" value="Home" id="btn-tohub" >
                 </div>
                 <?php if ($_SERVER['REQUEST_METHOD'] === 'POST'){
                                 if (isset($_POST['id'])){
