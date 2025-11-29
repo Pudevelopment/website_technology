@@ -62,7 +62,7 @@
         </footer>
         <script>
             document.getElementById('btn-back').addEventListener('click', function() {//Zum Login wechseln
-                 window.location.href = 'Homepage.php';
+                 window.location.href = 'index.php';
         });
         </script>
     </body>

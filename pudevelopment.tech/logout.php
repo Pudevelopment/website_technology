@@ -22,7 +22,7 @@
 <?php
 session_start();
 if(session_destroy()){
-    header("Refresh:2; url= Homepage.php");
+    header("Refresh:2; url= index.php");
     exit;
 }
 ?>

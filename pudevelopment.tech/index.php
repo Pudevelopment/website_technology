@@ -1,6 +1,6 @@
 <?php
 // Weiterleitung zu homepage.php
-$target = 'Homepage.php';
+$target = 'seilbahnen.php';
 
 if (!headers_sent()) {
     header('Location: ' . $target, true, 302);

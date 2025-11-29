@@ -94,7 +94,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])){
     <script>
         const basePath = "<?php echo dirname($_SERVER['SCRIPT_NAME']); ?>";
         document.getElementById('back').addEventListener('click', function() {
-            window.location.href = basePath + 'Homepage.php';
+            window.location.href = basePath + 'index.php';
         });
         document.getElementById('reset').addEventListener('click', function(){
             window.location.href = '';
