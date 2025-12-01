@@ -489,9 +489,14 @@ footer {
             border: 1vh solid black;
             text-align: space-around;
             font-size: large;
-            th, td{
+            td{
                 padding: 2vh;
                 width: 31vh;
+                img{
+                    width: 25vh;
+                    height: 40vh;
+                    border: 0.5vh solid black;
+                }
             }
         }
         #togithub{
