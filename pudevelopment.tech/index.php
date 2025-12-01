@@ -23,12 +23,16 @@
                         <h2>Hier finden Sie unser Informationsangebot über:</h2>
                     </div>
                     <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                     <div class="table-seitenauswahl">
                         <table>
                             <tr>
-                                <td id="cableway" rowspan="2">Seilbahn<br><img src="images/seilbahnen/jochbahn.JPG" alt="Bild Seilbahn"></td>
-                                <td id="slopevehicles" rowspan="2">Pistengeräte <br><img src="images/pistengeraete/600W.jpg" alt="Bild Pistengerät"></td>
-                                <td id="snowmaking" rowspan="2">Beschneiungsanlagen <br><img src="images/beschneiungsanlagen/tf10.jpg" alt="Bild Beschneiungsanlage"></td>
+                                <td id="cableway" rowspan="2"><p>Seilbahn</p><br><img src="images/seilbahnen/jochbahn.JPG" alt="Bild Seilbahn"></td>
+                                <td id="slopevehicles" rowspan="2"><p>Pistengeräte</p> <br><img src="images/pistengeraete/600W.jpg" alt="Bild Pistengerät"></td>
+                                <td id="snowmaking" rowspan="2"><p>Beschneiungsanlagen</p> <br><img src="images/beschneiungsanlagen/tf10.jpg" alt="Bild Beschneiungsanlage"></td>
                             </tr>
                         </table>
                     </div>
@@ -37,12 +41,13 @@
                         <h2> Hier finden Sie den Quellcode und die Lizenz</h2>
                     </div>
                     <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                     <div id="togithub">
                         <input type="submit" class="btn-quintär" name="submit" value="Zu Github wechseln" id="btn-github"> 
                     </div>
-                    <br>
-                    <br>    
-                    <br>
                 </div>
             </div>
         </main>

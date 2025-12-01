@@ -105,6 +105,7 @@ body {
     justify-content: space-around;
     align-items: center;
     height: 87vh;
+    margin-top: 17vh;
     table{
         font-size: clamp(17px, 0.7vw, 26px);
         text-align: center;
@@ -115,16 +116,21 @@ body {
         td{ 
             border: 0.5vh solid black;
             transition: transform .2s;
-            font-size: large;
             padding: 2vh;
             width: 30vh;
             img{
                 max-width: 28vh;
                 max-height: 40vh;
             }
+            p{
+                font-size: large;
+                text-decoration: underline;
+            }
         }
         td:hover{
-            transform: scale(1.5);
+            transform: scale(1.25);
+            background-color: white;
+            border: 0.25vh solid black;
         }
     }
     
@@ -137,7 +143,7 @@ body {
     input{
         font-size: large;
         padding: 12px calc(125vh - 75%);
-        margin: 8px 0;
+        margin: 12px 0;
         box-sizing: border-box;
         border: 2px solid black;
         background-image: url('../images/icons/github.png');
@@ -145,6 +151,7 @@ body {
         background-size: 25px, auto;
         background-repeat: no-repeat;
         padding-left: 75px;
+        padding-right: 75px;
         color: #333;
     }
     input:hover, input:focus{
