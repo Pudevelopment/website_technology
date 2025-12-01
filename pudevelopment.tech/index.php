@@ -10,7 +10,7 @@
     </head>
     <body>
         <header>
-            <h1><b>Home</b></h1>
+            <h1><b>Willkommen</b></h1>
             <div id="logout">
                 <input type="submit" class="btn-teriträr" name="submit" value="Login" id="btn-login" >
             </div>
@@ -18,7 +18,7 @@
         
         <main>
             <div id="seitenauswahl">
-                <h2>Unser Informationsangebot über: </h2>
+                <h2>Hier finden Sie unser Informationsangebot über:</h2>
                 <br>
                 <table>
                     <tr>
@@ -27,11 +27,15 @@
                         <th id="snowmaking">Beschneiungsanlagen</th>
                     </tr>
                     <tr>
-                        <td id="cableway"><img src="images/seilbahnen/jochbahn.JPG" alt="Bild Seilbahn" width="30vh"></td>
-                        <td id="slopevehicles"><img src="images/pistengeraete/600W.jpg" alt="Bild Pistengerät" width="30vh"></td>
-                        <td id="snowmaking"><img src="images/beschneiungsanlagen/tf10.jpg" alt="Bild Beschneiungsanlage" width="30vh"></td>
+                        <td><img src="images/seilbahnen/jochbahn.JPG" alt="Bild Seilbahn" width="30vh" id="cableway"></td>
+                        <td><img src="images/pistengeraete/600W.jpg" alt="Bild Pistengerät" width="30vh" height="auto" id="slopevehicles"></td>
+                        <td><img src="images/beschneiungsanlagen/tf10.jpg" alt="Bild Beschneiungsanlage" width="20vh" height="auto" id="snowmaking"></td>
                     </tr>
                 </table>
+                <br>
+                <h2> Hier finden Sie den Quellcode und die Lizenz</h2>
+                <br>
+                <input type="submit" class="btn-quintär" name="submit" value="Zu Github wechseln" id="btn-github"> 
             </div>
         </main>
 
@@ -57,6 +61,9 @@
                 });
             document.getElementById('snowmaking').addEventListener('click', function() {//Zur Beschneiungsanlagen Seite wechseln
                     alert("Seite nicht verfügbar");
+                });
+            document.getElementById('btn-github').addEventListener('click', function() {//Zu Github wechseln
+                    window.open("https://github.com/Pudevelopment/website_technology", "_blank");
                 });
         </script>
     </body>
