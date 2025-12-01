@@ -20,22 +20,26 @@
             <div id="seitenauswahl">
                 <h2>Hier finden Sie unser Informationsangebot über:</h2>
                 <br>
-                <table>
-                    <tr>
-                        <th id="cableway">Seilbahn</th>
-                        <th id="slopevehicles">Pistengeräte</th>
-                        <th id="snowmaking">Beschneiungsanlagen</th>
-                    </tr>
-                    <tr>
-                        <td><img src="images/seilbahnen/jochbahn.JPG" alt="Bild Seilbahn" width="30vh" id="cableway"></td>
-                        <td><img src="images/pistengeraete/600W.jpg" alt="Bild Pistengerät" width="30vh" height="auto" id="slopevehicles"></td>
-                        <td><img src="images/beschneiungsanlagen/tf10.jpg" alt="Bild Beschneiungsanlage" width="20vh" height="auto" id="snowmaking"></td>
-                    </tr>
-                </table>
+                <div class="table-seitenauswahl">
+                    <table>
+                        <tr>
+                            <th id="cableway">Seilbahn</th>
+                            <th id="slopevehicles">Pistengeräte</th>
+                            <th id="snowmaking">Beschneiungsanlagen</th>
+                        </tr>
+                        <tr>
+                            <td id="cableway"><img id="cableway" src="images/seilbahnen/jochbahn.JPG" alt="Bild Seilbahn" width="30vh" ></td>
+                            <td id="slopevehicles"><img id="slopevehicles" src="images/pistengeraete/600W.jpg" alt="Bild Pistengerät" width="30vh" height="auto" ></td>
+                            <td id="snowmaking"><img id="snowmaking" src="images/beschneiungsanlagen/tf10.jpg" alt="Bild Beschneiungsanlage" width="20vh" height="auto" ></td>
+                        </tr>
+                    </table>
+                </div>
                 <br>
                 <h2> Hier finden Sie den Quellcode und die Lizenz</h2>
                 <br>
-                <input type="submit" class="btn-quintär" name="submit" value="Zu Github wechseln" id="btn-github"> 
+                <div id="btn-quintär">
+                    <input type="submit" class="btn-quintär" name="submit" value="Zu Github wechseln" id="btn-github"> 
+                </div>
             </div>
         </main>
 

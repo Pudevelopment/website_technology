@@ -478,6 +478,7 @@ footer {
 }
 
 #seitenauswahl{
+    font-size: clamp(17px, 0.7vw, 26px);
     background-color: #a1e2f8;
     display: flex;
     justify-content: center;
