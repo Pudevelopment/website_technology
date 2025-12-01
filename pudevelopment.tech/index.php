@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="de">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/indexstyle.css" />
         <link rel="icon" type="image/jpg"
             href="images/icons/cable-car.png">
         <title>Home</title>
-        <link rel="stylesheet" href="css/stylesheet.css">
     </head>
     <body>
         <header>
@@ -24,9 +24,9 @@
                     <div class="table-seitenauswahl">
                         <table>
                             <tr>
-                                <td id="cableway" rowspan="2">Seilbahn<br><img src="images/seilbahnen/jochbahn.JPG" alt="Bild Seilbahn"></td>
-                                <td id="slopevehicles" rowspan="2">Pistengeräte <br><img src="images/pistengeraete/600W.jpg" alt="Bild Pistengerät"></td>
-                                <td id="snowmaking" rowspan="2">Beschneiungsanlagen <br><img src="images/beschneiungsanlagen/tf10.jpg" alt="Bild Beschneiungsanlage"></td>
+                                <td id="cableway" rowspan="2">Seilbahn<br><img src="images/seilbahnen/jochbahn.JPG" alt="Bild Seilbahn" width="auto" height="auto"></td>
+                                <td id="slopevehicles" rowspan="2">Pistengeräte <br><img src="images/pistengeraete/600W.jpg" alt="Bild Pistengerät" width="auto" height="auto"></td>
+                                <td id="snowmaking" rowspan="2">Beschneiungsanlagen <br><img src="images/beschneiungsanlagen/tf10.jpg" alt="Bild Beschneiungsanlage" width="auto" height="auto"></td>
                             </tr>
                         </table>
                     </div>
@@ -36,6 +36,9 @@
                     <div id="togithub">
                         <input type="submit" class="btn-quintär" name="submit" value="Zu Github wechseln" id="btn-github"> 
                     </div>
+                    <br>
+                    <br>    
+                    <br>
                 </div>
             </div>
         </main>

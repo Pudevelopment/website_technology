@@ -483,19 +483,18 @@ footer {
         background-color: #a1e2f8;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: space-around;
         height: 87vh;
         .table-seitenauswahl{
             border: 1vh solid black;
-            text-align: space-around;
+            text-align: center;
             font-size: large;
             td{
                 padding: 2vh;
                 width: 30vh;
                 img{
-                    width: 28vh;
-                    height: 40vh;
-                    border: 0.5vh solid black;
+                    max-width: 28vh;
+                    max-height: 40vh;
                 }
             }
         }
@@ -507,7 +506,7 @@ footer {
                 margin: 8px 0;
                 box-sizing: border-box;
                 border: 2px solid black;
-                background-image: url('../images/icons/github.png');
+                background-image: url('images/icons/github.png');
                 background-position: 5px, 5px;
                 background-size: 25px, auto;
                 background-repeat: no-repeat;
