@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/indexstyle.css" />
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <link rel="icon" type="image/jpg"
             href="images/icons/cable-car.png">
         <title>Home</title>
@@ -42,7 +43,7 @@
                     <br>
                     <br>
                     <div id="seitenauswahl-text">
-                        <h2> Hier finden Sie den Quellcode und die Lizenz</h2>
+                        <h2>Den Quellcode und die Lizenz finden Sie in Github:</h2>
                     </div>
                     <br>
                     <div id="togithub">
@@ -78,6 +79,24 @@
             document.getElementById('btn-github').addEventListener('click', function() {//Zu Github wechseln
                     window.open("https://github.com/Pudevelopment/website_technology", "_blank");
                 });
+
+            window.addEventListener('load', function() {
+                const Ilovecookies = sessionStorage.getItem('Ilovecookies');
+                if (Ilovecookies === null) {
+                    Swal.fire({
+                        title: 'Diese Webseite verwendet Cookies',
+                        text: 'Wir verwenden Cookies, um Ihre Erfahrung auf unserer Webseite zu verbessern. Durch die weitere Nutzung der Webseite stimmen Sie der Verwendung von Cookies zu.',
+                        icon: 'info',
+                        confirmButtonText: 'Akzeptieren',
+                        allowOutsideClick: false,
+                        allowEscapeKey: false
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+                            sessionStorage.setItem('Ilovecookies', 'true');
+                        }
+                    });
+                }
+            });
         </script>
     </body>
 </html>

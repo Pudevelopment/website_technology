@@ -99,6 +99,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])){
         document.getElementById('reset').addEventListener('click', function(){
             window.location.href = '';
         });
+        window.addEventListener('load', function() {
+            const Ilovecookies = sessionStorage.getItem('Ilovecookies');
+            if (Ilovecookies === null) {
+                window.location.href = 'index.php';
+            }
+        });
     </script>
     </body>
 </html>

@@ -315,6 +315,12 @@ require_once "config.php";
                     showForm(formId);
                 }
             });
+            window.addEventListener('load', function() {
+                const Ilovecookies = sessionStorage.getItem('Ilovecookies');
+                if (Ilovecookies === null) {
+                    window.location.href = 'index.php';
+                }
+            });
         </script>
     </body>
 </html>

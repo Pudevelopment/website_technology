@@ -341,6 +341,13 @@ if ($db === false) {
                     });
                 });
             });
+
+            window.addEventListener('load', function() {
+                const Ilovecookies = sessionStorage.getItem('Ilovecookies');
+                if (Ilovecookies === null) {
+                    window.location.href = 'index.php';
+                }
+            });
         </script>
     </body>
         <!-- 
