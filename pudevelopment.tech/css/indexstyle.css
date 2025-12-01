@@ -20,6 +20,7 @@ header {
     #welcometext{
         top: 1.25vh;
         position: fixed;
+        font-size: 4em;
     }
     #logout {
         text-align: center;
@@ -123,8 +124,11 @@ body {
                 max-height: 40vh;
             }
             p{
-                font-size: 2em;
+                font-size: 1.5em;
                 text-decoration: underline;
+                #tableheader{
+                    font-size: 3em;
+                }
             }
         }
         td:hover{

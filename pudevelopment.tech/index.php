@@ -21,7 +21,9 @@
             <div class="homes">
                 <div id="seitenauswahl">
                     <div id="seitenauswahl-text">
-                        <h2>Hier finden Sie unser Informationsangebot über:</h2>
+                        <div id="tableheader">
+                            <h2>Hier finden Sie unser Informationsangebot über:</h2>
+                        </div>
                     </div>
                     <br>
                     <br>
