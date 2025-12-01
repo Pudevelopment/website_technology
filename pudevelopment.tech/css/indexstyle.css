@@ -112,7 +112,10 @@ body {
         border: 1vh solid black;
         text-align: center;
         font-size: large;
-        td{
+        justify-content: center;
+        align-items: center;
+        td{ 
+            font-size: large;
             padding: 2vh;
             width: 30vh;
             img{
@@ -133,7 +136,7 @@ body {
         margin: 8px 0;
         box-sizing: border-box;
         border: 2px solid black;
-        background-image: url('images/icons/github.png');
+        background-image: url('../images/icons/github.png');
         background-position: 25px, 25px;
         background-size: 25px, auto;
         background-repeat: no-repeat;
