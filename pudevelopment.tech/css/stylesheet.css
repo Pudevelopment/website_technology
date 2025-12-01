@@ -477,38 +477,44 @@ footer {
     text-align: center;
 }
 
-#seitenauswahl{
-    font-size: clamp(17px, 0.7vw, 26px);
-    background-color: #a1e2f8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 87vh;
-    .table-seitenauswahl{
-        border: 1vh solid black;
-        text-align: space-around;
-        font-size: large;
-        th, td{
-            padding: 2vh;
-            width: 31vh;
+.homes{
+    #seitenauswahl{
+        font-size: clamp(17px, 0.7vw, 26px);
+        background-color: #a1e2f8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 87vh;
+        .table-seitenauswahl{
+            border: 1vh solid black;
+            text-align: space-around;
+            font-size: large;
+            th, td{
+                padding: 2vh;
+                width: 31vh;
+            }
         }
+        #togithub{
+            display: flex;
+            justify-content: center;
+            .btn-quintär{
+                padding: 12px calc(125vh - 50%);
+                margin: 8px 0;
+                box-sizing: border-box;
+                border: 2px solid black;
+                background-image: url('../images/icons/github.png');
+                background-position: 5px, 5px;
+                background-size: 25px, auto;
+                background-repeat: no-repeat;
+                padding-left: 40px;
+                background-color: white;
+                color: #333;
+            }
+            .btn-quintär:hover, .btn-quintär:focus{
+                background-color: #333;
+                color: white;
+            }
+        }  
     }
 }
-
-.btn-quintär{
-    padding: 12px calc(125vh - 50%);
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px solid black;
-    background-image: url('../images/icons/github.png');
-    background-position: 5px, 5px;
-    background-size: 25px, auto;
-    background-repeat: no-repeat;
-    padding-left: 40px;
-    background-color: white;
-    color: #333;
-}
-.btn-quintär:hover, .btn-quintär:focus{
-    background-color: #333;
-    color: white;
-}
+ 
