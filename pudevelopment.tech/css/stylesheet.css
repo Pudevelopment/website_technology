@@ -476,3 +476,17 @@ footer {
     justify-content: center;
     text-align: center;
 }
+
+#seitenauswahl{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 87vh;
+    .table-seitenauswahl{
+        border: 1vh solid black;
+        text-align: space-around;
+        th, td{
+            padding: 15px;
+        }
+    }
+}
