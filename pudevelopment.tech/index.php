@@ -85,11 +85,14 @@
                 if (Ilovecookies === null) {
                     Swal.fire({
                         title: 'Diese Webseite verwendet Cookies',
-                        text: 'Wir verwenden Cookies, um Ihre Erfahrung auf unserer Webseite zu verbessern. Durch die weitere Nutzung der Webseite stimmen Sie der Verwendung von Cookies zu.',
+                        text: 'Wir verwenden Cookies, um Ihre Erfahrung auf unserer Webseite zu verbessern. Durch die weitere Nutzung der Webseite stimmen Sie der Verwendung von Cookies zu. Nähere Informationen finden Sie in unserer Datenschutzerklärung.',
                         icon: 'info',
                         confirmButtonText: 'Akzeptieren',
                         allowOutsideClick: false,
-                        allowEscapeKey: false
+                        allowEscapeKey: false,
+                        background: '#333',
+                        color: 'white',
+                        confirmButtonColor: 'green'
                     }).then((result) => {
                         if (result.isConfirmed) {
                             sessionStorage.setItem('Ilovecookies', 'true');

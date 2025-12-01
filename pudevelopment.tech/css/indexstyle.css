@@ -115,7 +115,7 @@ body {
         display: flex;
         td{ 
             border: 0.5vh solid black;
-            transition: transform .2s;
+            transition: transform .1s;
             padding: 2vh;
             width: 30vh;
             img{
@@ -123,13 +123,15 @@ body {
                 max-height: 40vh;
             }
             p{
-                font-size: large;
+                font-size: 2em;
                 text-decoration: underline;
             }
         }
         td:hover{
+            transition: .2s;
             transform: scale(1.25);
-            background-color: white;
+            background-color: #333;
+            color: white;
             border: 0.25vh solid black;
         }
     }
