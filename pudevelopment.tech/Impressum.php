@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="PU Development - Impressum und rechtliche Angaben der Webseite.">
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
         <title>Impressum</title>
         <link rel="icon" type="image/jpg"

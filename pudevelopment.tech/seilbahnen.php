@@ -15,6 +15,7 @@ if ($db === false) {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="PU Development - Erkunden Sie verschiedene Technologien rund um Seilbahnen.">
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
         <title>Seilbahnen</title>
         <link rel="icon" type="image/jpg"

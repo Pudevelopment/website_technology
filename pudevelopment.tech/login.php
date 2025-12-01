@@ -45,6 +45,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])){
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="PU Development - Anmeldung und Benutzerzugang.">
         <title>Anmeldung</title>
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
         <link rel="icon" type="image/jpg" href="images/icons/cable-car.png">

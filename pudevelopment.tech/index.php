@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="PU Development - Erkunden Sie verschiedene Technologien rund um Seilbahnen, Pistengeräte und Beschneiungsanlagen.">
         <link rel="stylesheet" type="text/css" href="css/indexstyle.css" />
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <link rel="icon" type="image/jpg"

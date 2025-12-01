@@ -13,6 +13,7 @@ require_once "config.php";
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="PU Development - Administrativer Bereich und Benutzerverwaltung.">
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <title>Administrativer Bereich</title>
