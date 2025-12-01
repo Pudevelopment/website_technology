@@ -491,9 +491,9 @@ footer {
             font-size: large;
             td{
                 padding: 2vh;
-                width: 31vh;
+                width: 30vh;
                 img{
-                    width: 25vh;
+                    width: 28vh;
                     height: 40vh;
                     border: 0.5vh solid black;
                 }
@@ -502,7 +502,7 @@ footer {
         #togithub{
             display: flex;
             justify-content: center;
-            .btn-quintär{
+            .btn-github{
                 padding: 12px calc(125vh - 50%);
                 margin: 8px 0;
                 box-sizing: border-box;
@@ -515,7 +515,7 @@ footer {
                 background-color: white;
                 color: #333;
             }
-            .btn-quintär:hover, .btn-quintär:focus{
+            .btn-github:hover, .btn-github:focus{
                 background-color: #333;
                 color: white;
             }
