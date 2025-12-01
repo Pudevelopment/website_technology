@@ -19,7 +19,9 @@
         <main>
             <div class="homes">
                 <div id="seitenauswahl">
-                    <h2>Hier finden Sie unser Informationsangebot über:</h2>
+                    <div id="seitenauswahl-text">
+                        <h2>Hier finden Sie unser Informationsangebot über:</h2>
+                    </div>
                     <br>
                     <div class="table-seitenauswahl">
                         <table>
@@ -31,7 +33,9 @@
                         </table>
                     </div>
                     <br>
-                    <h2> Hier finden Sie den Quellcode und die Lizenz</h2>
+                    <div id="seitenauswahl-text">
+                        <h2> Hier finden Sie den Quellcode und die Lizenz</h2>
+                    </div>
                     <br>
                     <div id="togithub">
                         <input type="submit" class="btn-quintär" name="submit" value="Zu Github wechseln" id="btn-github"> 

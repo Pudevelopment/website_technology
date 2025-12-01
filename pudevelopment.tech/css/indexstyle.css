@@ -99,15 +99,16 @@ body {
     margin: 0;
     padding: 0;
     background-color: #a1e2f8;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 #seitenauswahl{
-    font-size: clamp(17px, 0.7vw, 26px);
-    display: flex;
-    justify-content: center;
-    align-items: space-around;
+    justify-content: space-around;
+    align-items: center;
     height: 87vh;
     table{
+        font-size: clamp(17px, 0.7vw, 26px);
         border: 1vh solid black;
         text-align: center;
         font-size: large;
@@ -121,6 +122,7 @@ body {
         }
     }
     
+    
 }
 
 #togithub{
@@ -132,11 +134,10 @@ body {
         box-sizing: border-box;
         border: 2px solid black;
         background-image: url('images/icons/github.png');
-        background-position: 5px, 5px;
+        background-position: 25px, 25px;
         background-size: 25px, auto;
         background-repeat: no-repeat;
         padding-left: 40px;
-        background-color: white;
         color: #333;
     }
     input:hover, input:focus{
@@ -144,3 +145,9 @@ body {
         color: white;
     }
 }  
+
+#seitenauswahl-text{
+    font-size: clamp(23px, 0.7vw, 32px);
+    text-align: center;
+    margin-bottom: 2vh;
+}
