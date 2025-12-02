@@ -317,7 +317,6 @@ if ($db === false) {
             });
 
             document.getElementById('btn-tohub').addEventListener('click', function() {
-                alert('Bitte Link anpassen in Homepage.php Line: 344');
                 window.location.href = 'index.php';
             });
 
