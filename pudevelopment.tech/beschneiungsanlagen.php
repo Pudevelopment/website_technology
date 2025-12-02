@@ -228,6 +228,16 @@ if ($db === false) {
                 const Ilovecookies = sessionStorage.getItem('Ilovecookies');
                 if (Ilovecookies === null) {
                     window.location.href = 'index.php';
+                }else{
+                    Swal.fire({
+                        title: 'Hinweis',
+                        text: 'Dieser Teil der Webseite befindet sich noch im Aufbau. Einige Funktionen und Inhalte sind möglicherweise noch nicht verfügbar.',
+                        icon: 'info',
+                        confirmButtonText: 'Verstanden',
+                        background: '#333',
+                        color: 'white',
+                        confirmButtonColor: 'green'
+                    });
                 }
             });
         </script>
