@@ -363,10 +363,9 @@ footer {
         justify-content: space-between;
         .gondel{
             text-align: center;
-            overflow-y: auto;
+            overflow-y: hidden;
             overflow-x: hidden;
-            min-height: calc(100vh - 12vh);
-            max-height: calc(100vh - 12vh);
+            height: calc(100vh - 12vh);
             flex-grow: 1;
             flex-shrink: 0;
             position: sticky;
