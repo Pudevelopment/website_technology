@@ -250,7 +250,7 @@ footer#loginfooter {
             color: white;
         }
     }
-    #reg-bahn, #reg-nutzer, #del-bahn, #del-nutzer, #show-task{
+    #reg-bahn, #reg-nutzer, #del-bahn, #del-nutzer, #show-task, #reg-pistengeraet, #del-pistengeraet, #reg-beschneiung, #del-beschneiung{
         direction: ltr;
         display: flex;
         flex-direction: column;

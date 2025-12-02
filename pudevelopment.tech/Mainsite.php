@@ -203,6 +203,201 @@ require_once "config.php";
                         </form>
                     </div>
                 </div>
+                <div id="registerpistengeraet" class="form-container">
+                   <div id="reg-pistengeraet">
+                        <form method="POST" action="reg-pistengeraet.php">
+                            <h1>Pistengerät hinzufügen</h1>
+                            <div class="pistengeraet-form">
+                                    <?php  if (isset($_SESSION['pistengeraetresult'])):
+                                                echo ($_SESSION["pistengeraetresult"]);
+                                                unset($_SESSION["pistengeraetresult"]);
+                                            endif;
+                                            
+                                    ?>
+                            </div>
+                            <h3>Pflichtfelder</h3>
+                            <div class="pistengeraet-form">
+                                <input type="text" name="name" class="form-control" placeholder="Gerätename (Hersteller)" required oninvalid="this.setCustomValidity('Bitte einen gültigen Namen und Standort in Klammern, angeben')" oninput="setCustomValidity('')">
+                            </div>
+                            <div class="pistengeraet-form">
+                                <input type="text" name="h1name" class="form-control" placeholder="Gerätename" required oninvalid="this.setCustomValidity('Bitte einen gültigen Bahnnamen eingeben')" oninput="setCustomValidity('')">
+                            </div>
+                            <div class="pistengeraet-form">
+                                <input type="text" name="typ" class="form-control" placeholder="Gerätetyp" required oninvalid="this.setCustomValidity('Bitte einen gültigen Seilbahntyp angeben')" oninput="setCustomValidity('')">
+                            </div>
+                            <div class="pistengeraet-form">
+                                    <select id="typ_db" name="typ_db" required oninvalid="this.setCustomValidity('Bitte eine Kategorie auswählen')" oninput="setCustomValidity('')">
+                                            <option value="" selected ="selected">(Wählen Sie eine Katergorie)</option>
+                                            <option value="1">Mit Winde</option>
+                                            <option value="2">Ohne Winde</option>
+                                            <option value="3">Sonstige</option>
+                                    </select>
+                            </div>
+                            <div class="pistengeraet-form">
+                                <input type="text" name="hersteller" class="form-control" placeholder="Hersteller" required oninvalid="this.setCustomValidity('Bitte einen gültigen Hersteller eingeben')" oninput="setCustomValidity('')">
+                            </div>
+                            <h3>Optionale Felder</h3>
+                            <div class="pistengeraet-form">
+                                <input type="number" name="lgeraet" class="form-control" placeholder="Fahrzeug Länenge in Metern">
+                            </div>
+                            <div class="pistengeraet-form">
+                                <input type="number" name="bgeraet" class="form-control" placeholder="Fahrzeug Breite in Metern">
+                            </div>
+                            <div class="pistengeraet-form">
+                                <input type="number" name="hgeraet" class="form-control" placeholder="Fahrzeug Höhe in Metern">
+                            </div>
+                            <div class="pistengeraet-form">
+                                <input type="number" name="Gewicht" class="form-control" placeholder="Gewicht in Kilogramm">
+                            </div>
+                            <div class="pistengeraet-form">
+                                <input type="number" name="leistung" class="form-control" placeholder="Leistung in Kilowatt">
+                            </div>
+                            <div class="pistengeraet-form">
+                                <input type="number" name="zugkraft" class="form-control" placeholder="Zugkraft der Winde in kN">
+                            </div>
+                            <div class="pistengeraet-form">
+                                <input type="number" name="geschwindigkeit" class="form-control" placeholder="Maximale Geschwindigkeit in km/h">
+                            </div>
+                            <div class="pistengeraet-form">
+                                <div class="check-pistengeraet">
+                                    <input type="hidden" name="winde" value="0">
+                                    <input type="checkbox" name="winde" id="id-winde" value="1">
+                                    <br>
+                                    <label for="id-winde">Winde?</label>
+                                    <br>
+                                    <br>                    
+                                    </div>
+                            </div>
+                            <div class="pistengeraet-form">
+                                <input type="text" name="bildpfad" class="form-control" placeholder="Relativer Pfad für Bilddatei">
+                            </div>
+                            <div class="pistengeraet-form">
+                                <input type="text" name="besonderheiten" class="form-control" placeholder="Besonderheiten">
+                            </div>
+                            <div class="pistengeraet-form">
+                                <div class="btn-pistengeraet-submit">
+                                    <input type="submit" name="submit" class="form-control" placeholder="Hinzufügen">
+                                    <button type="reset">Formular leeren</button>
+                                    <br>
+                                    <p> </p>
+                                </div>
+                            </div>
+                        </form>
+                    </div> 
+                </div>
+                <div id="loeschenpistengeraet" class="form-container">
+                    <div id="del-pistengeraet">
+                        <form method="POST" action="del-pistengeraet.php">
+                            <h1>Pistengeräte löschen</h1>
+                            <div class="pistengeraet-form">
+                                <input type="text" name="name" class="form-control" placeholder="Gerätename (Hersteller)" required oninvalid="this.setCustomValidity('Bitte einen gültigen Namen und Hersteller in Klammern, angeben')" oninput="setCustomValidity('')">
+                            </div>
+                            <div class="pistengeraet-form">
+                                <input type="text" name="h1name" class="form-control" placeholder="Gerätename" required oninvalid="this.setCustomValidity('Bitte einen gültigen Gerätenamen eingeben')" oninput="setCustomValidity('')">
+                            </div>
+                            <div class="pistengeraet-form">
+                                <div class="btn-pistengeraet-submit">
+                                    <input type="submit" name="submit" class="form-control" value="Löschen">
+                                    <button type="reset">Formular leeren</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div id="registerbeschneiung" class="form-container">
+                   <div id="reg-beschneiung">
+                        <form method="POST" action="reg-beschneiung.php">
+                            <h1>Beschneiungsanlage hinzufügen</h1>
+                            <div class="beschneiung-form">
+                                    <?php  if (isset($_SESSION['beschneiungresult'])):
+                                                echo ($_SESSION["beschneiungresult"]);
+                                                unset($_SESSION["beschneiungresult"]);
+                                            endif;
+                                            
+                                    ?>
+                            </div>
+                            <h3>Pflichtfelder</h3>
+                            <div class="beschneiung-form">
+                                <input type="text" name="name" class="form-control" placeholder="Anlagenname (Hersteller)" required oninvalid="this.setCustomValidity('Bitte einen gültigen Namen und Standort in Klammern, angeben')" oninput="setCustomValidity('')">
+                            </div>
+                            <div class="beschneiung-form">
+                                <input type="text" name="h1name" class="form-control" placeholder="Anlagenname" required oninvalid="this.setCustomValidity('Bitte einen gültigen Bahnnamen eingeben')" oninput="setCustomValidity('')">
+                            </div>
+                            <div class="beschneiung-form">
+                                <input type="text" name="typ" class="form-control" placeholder="Gerätetyp" required oninvalid="this.setCustomValidity('Bitte einen gültigen Seilbahntyp angeben')" oninput="setCustomValidity('')">
+                            </div>
+                            <div class="beschneiung-form">
+                                    <select id="typ_db" name="typ_db" required oninvalid="this.setCustomValidity('Bitte eine Kategorie auswählen')" oninput="setCustomValidity('')">
+                                            <option value="" selected ="selected">(Wählen Sie eine Katergorie)</option>
+                                            <option value="1">Propelleranlagen</option>
+                                            <option value="2">Schneilanzen</option>
+                                            <option value="3">Sonstige</option>
+                                    </select>
+                            </div>
+                            <div class="beschneiung-form">
+                                <input type="text" name="hersteller" class="form-control" placeholder="Hersteller" required oninvalid="this.setCustomValidity('Bitte einen gültigen Hersteller eingeben')" oninput="setCustomValidity('')">
+                            </div>
+                            <h3>Optionale Felder</h3>
+                            <div class="beschneiung-form">
+                                <input type="number" name="nennspannung" class="form-control" placeholder="Nennspannung in Volt">
+                            </div>
+                            <div class="beschneiung-form">
+                                <input type="text" name="betriebstemp" class="form-control" placeholder="Betriebstemperatur in °C">
+                            </div>
+                            <div class="beschneiung-form">
+                                <input type="number" name="drehzahl" class="form-control" placeholder="Drehzahl in Umdrehungen pro Minute">
+                            </div>
+                            <div class="beschneiung-form">
+                                <input type="number" name="schwenkung" class="form-control" placeholder="Maximale Schwenkung in Grad">
+                            </div>
+                            <div class="beschneiung-form">
+                                <input type="number" name="horizontaledrehung" class="form-control" placeholder="Horizontale Drehung in Grad">
+                            </div>
+                            <div class="beschneiung-form">
+                                <input type="number" name="turbinenneigung" class="form-control" placeholder="Turbinenneigung in Grad">
+                            </div>
+                            <div class="beschneiung-form">
+                                <input type="number" name="wasserdruck" class="form-control" placeholder="Wasserdruck in Bar">
+                            </div>
+                            <div class="beschneiung-form">
+                                <input type="number" name="nennleistung" class="form-control" placeholder="Nennleistung in kW">
+                            </div>
+                            <div class="beschneiung-form">
+                                <input type="text" name="bildpfad" class="form-control" placeholder="Relativer Pfad für Bilddatei">
+                            </div>
+                            <div class="beschneiung-form">
+                                <input type="text" name="besonderheiten" class="form-control" placeholder="Besonderheiten">
+                            </div>
+                            <div class="beschneiung-form">
+                                <div class="btn-beschneiung-submit">
+                                    <input type="submit" name="submit" class="form-control" placeholder="Hinzufügen">
+                                    <button type="reset">Formular leeren</button>
+                                    <br>
+                                    <p> </p>
+                                </div>
+                            </div>
+                        </form>
+                    </div> 
+                </div>
+                <div id="loeschenbeschneiung" class="form-container">
+                    <div id="del-beschneiung">
+                        <form method="POST" action="del-beschneiung.php">
+                            <h1>Beschneiungsanlagen löschen</h1>
+                            <div class="beschneiung-form">
+                                <input type="text" name="name" class="form-control" placeholder="Anlagenname (Hersteller)" required oninvalid="this.setCustomValidity('Bitte einen gültigen Namen und Hersteller in Klammern, angeben')" oninput="setCustomValidity('')">
+                            </div>
+                            <div class="beschneiung-form">
+                                <input type="text" name="h1name" class="form-control" placeholder="Anlagenname" required oninvalid="this.setCustomValidity('Bitte einen gültigen Gerätenamen eingeben')" oninput="setCustomValidity('')">
+                            </div>
+                            <div class="beschneiung-form">
+                                <div class="btn-beschneiung-submit">
+                                    <input type="submit" name="submit" class="form-control" value="Löschen">
+                                    <button type="reset">Formular leeren</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
                 <div id="registernutzer" class="form-container">
                     <div id="reg-nutzer">
                         <form method="post" action="register.php">
