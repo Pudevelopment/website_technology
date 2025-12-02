@@ -177,7 +177,7 @@ if ($db === false) {
                             mysqli_close($db);
                     }else{
                         echo '
-                        <iframe id="ytplayer" type="text/html" width="2000vh" height="1069vh"src="https://www.youtube.com/watch?v=CQfefRKBZFw?autoplay=1&controls=0&disablekb=1&fs=0&loop=1&modestbranding=1&playlist=jY0yxxSy3NI&mute=1"frameborder="0" allowfullscreen></iframe>';
+                        <iframe id="ytplayer" type="text/html" width="2000vh" height="1069vh"src="https://www.youtube.com/embed/CQfefRKBZFw?autoplay=1&controls=0&disablekb=1&fs=0&loop=1&modestbranding=1&playlist=jY0yxxSy3NI&mute=1"frameborder="0" allowfullscreen></iframe>';
                     } 
                     ?>
                 </div>
