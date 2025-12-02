@@ -285,7 +285,7 @@ footer#loginfooter {
                     padding: 1vh 2vh;
                 }
             }
-            .check-bahn{
+            .check-bahn, .check-pistengeraet, .check-beschneiung{
                 width: 35vh;
                 text-align: center;
                 padding: 3vh;
