@@ -1,6 +1,6 @@
 <?php
-require_once __DIR__ . "/php/config.php";
-require_once __DIR__ . "/php/session.php";
+require_once "config.php";
+require_once "session.php";
 $error = '';
 #session_start();
 
@@ -26,7 +26,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])){
                     $_SESSION["userid"] = $row['id'];
                     $_SESSION["user"] = $row;
                     $_SESSION["email"] = $row['email'];
-                    header("Location: " . __DIR__ . "/php/welcome.php");
+                    header("Location: welcome.php");
                     exit;
                 }else{
                     $error .= '<p class="error"> E-Mail oder Kennwort falsch.</p>'; #Falsches Passwort
@@ -45,6 +45,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])){
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="PU Development - Anmeldung und Benutzerzugang.">
         <title>Anmeldung</title>
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
         <link rel="icon" type="image/jpg" href="images/icons/cable-car.png">
@@ -94,10 +95,16 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])){
     <script>
         const basePath = "<?php echo dirname($_SERVER['SCRIPT_NAME']); ?>";
         document.getElementById('back').addEventListener('click', function() {
-            window.location.href = basePath + '/Homepage.php';
+            window.location.href = basePath + 'index.php';
         });
         document.getElementById('reset').addEventListener('click', function(){
             window.location.href = '';
+        });
+        window.addEventListener('load', function() {
+            const Ilovecookies = sessionStorage.getItem('Ilovecookies');
+            if (Ilovecookies === null) {
+                window.location.href = 'index.php';
+            }
         });
     </script>
     </body>

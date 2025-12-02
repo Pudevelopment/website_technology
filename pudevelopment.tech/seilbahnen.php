@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . "/php/config.php";
+require_once "config.php";
 
 $db = mysqli_connect(DBSERVER, DBUSERNAME, DBPASSWORD, DBNAME);
 
@@ -15,8 +15,9 @@ if ($db === false) {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="PU Development - Erkunden Sie verschiedene Technologien rund um Seilbahnen.">
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
-        <title>Home</title>
+        <title>Seilbahnen</title>
         <link rel="icon" type="image/jpg"
         href="images/icons/cable-car.png">
     </head>
@@ -25,12 +26,12 @@ if ($db === false) {
         <div class="seilbahn">
             <header>
                 <div id="tohub">
-                    <input type="submit" class="btn-teriträr" name="submit" value="Zur Doppelmayr Smartcontrol" id="btn-tohub" >
+                    <input type="submit" class="btn-teriträr" name="submit" value="Home" id="btn-tohub" >
                 </div>
                 <?php if ($_SERVER['REQUEST_METHOD'] === 'POST'){
                                 if (isset($_POST['id'])){
                                     $id = intval($_POST['id']); 
-                                    $stmt = $db->prepare("SELECT * FROM SeilbahnDaten WHERE id = ?");
+                                    $stmt = $db->prepare("SELECT * FROM seilbahndaten WHERE id = ?");
                                     if ($stmt) {
                                         $stmt->bind_param("i", $id);
                                         $stmt->execute();
@@ -51,7 +52,7 @@ if ($db === false) {
                                     echo "Ungültige ID.";
                                 }
                             }else{
-                                echo "<h1>Willkommen</h1>";
+                                echo "<h1>Seilbahnen</h1>";
                             }
                 ?>
                 <div id="logout">
@@ -63,7 +64,7 @@ if ($db === false) {
                     <?php 
                         echo "<h2>Kabinenbahnen</h2>";
                         for ($i = 0; $i <= 4; $i++) {
-                            $stmt = $db->prepare("SELECT name, id FROM SeilbahnDaten WHERE typ_db = ?");
+                            $stmt = $db->prepare("SELECT name, id FROM seilbahndaten WHERE typ_db = ?");
                             $stmt->bind_param("i", $i);
                             $stmt->execute();
                             $result = $stmt->get_result();
@@ -119,7 +120,7 @@ if ($db === false) {
                         echo "<br>";
                         echo "<h2>Sessellifte</h2>";
                         for ($i = 5; $i <= 9; $i++) {
-                            $stmt = $db->prepare("SELECT name, id FROM SeilbahnDaten WHERE typ_db = ?");
+                            $stmt = $db->prepare("SELECT name, id FROM seilbahndaten WHERE typ_db = ?");
                             $stmt->bind_param("i", $i);
                             $stmt->execute();
                             $result = $stmt->get_result();
@@ -183,7 +184,7 @@ if ($db === false) {
                                 //echo "<h3>Keine Einträge für typ_db = {$i}</h3>";
                             }
                         }
-                        $stmt = $db->prepare("SELECT name, id FROM SeilbahnDaten WHERE typ_db = 10");
+                        $stmt = $db->prepare("SELECT name, id FROM seilbahndaten WHERE typ_db = 10");
                         $stmt->execute();
                         $result = $stmt->get_result();
                         if($result != NULL){
@@ -201,7 +202,7 @@ if ($db === false) {
                     <?php   if ($_SERVER['REQUEST_METHOD'] === 'POST'){
                                 if (isset($_POST['id'])){
                                     $id = intval($_POST['id']); 
-                                    $stmt = $db->prepare("SELECT * FROM SeilbahnDaten WHERE id = ?");
+                                    $stmt = $db->prepare("SELECT * FROM seilbahndaten WHERE id = ?");
                                     $stmt->bind_param("i", $id); 
                                     $stmt->execute();
                                     $result = $stmt->get_result();
@@ -294,7 +295,7 @@ if ($db === false) {
                                 }
                             mysqli_close($db);
                     }else{
-                        echo '<div class="pic-else"><img src= "images/background/skiweltbahn.jpg" alt="Skiweltbahn Bild als Platzhalter"></div>';
+                        echo '<div class="pic-else"><img src= "images/background/skiweltbahn.JPG" alt="Skiweltbahn Bild als Platzhalter"></div>';
                     } 
                     ?>
                 </div>
@@ -311,14 +312,13 @@ if ($db === false) {
         </div>
         
         <script>
-            const basePath = "<?php echo dirname($_SERVER['SCRIPT_NAME']); ?>";
             document.getElementById('btn-login').addEventListener('click', function() {//Zum Login wechseln
-                window.location.href = '' + basePath + '/login.php';
+                window.location.href = 'login.php';
             });
 
             document.getElementById('btn-tohub').addEventListener('click', function() {
                 alert('Bitte Link anpassen in Homepage.php Line: 344');
-                window.location.href = '' + basePath + '/index.php';
+                window.location.href = 'index.php';
             });
 
             document.addEventListener("DOMContentLoaded", function () {
@@ -341,6 +341,13 @@ if ($db === false) {
                         }, 100); 
                     });
                 });
+            });
+
+            window.addEventListener('load', function() {
+                const Ilovecookies = sessionStorage.getItem('Ilovecookies');
+                if (Ilovecookies === null) {
+                    window.location.href = 'index.php';
+                }
             });
         </script>
     </body>

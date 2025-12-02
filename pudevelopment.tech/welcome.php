@@ -3,7 +3,7 @@ require_once "config.php";
 session_start();
 
 if (!isset($_SESSION["userid"]) || $_SESSION["userid"] === false) {
-    header("location: ../login.php");
+    header("location: login.php");
     exit;
 }
 
@@ -21,10 +21,10 @@ $user = $result->fetch_assoc();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
     <title>Willkommen</title>
     <link rel="icon" type="image/jpg"
-		  href="../images/icons/cable-car.png">
+		  href="images/icons/cable-car.png">
 </head>
 
 <body>
@@ -37,10 +37,10 @@ $user = $result->fetch_assoc();
 <?php
 
 if(!isset($_SESSION["userid"]) || $_SESSION["userid"] !== false){
-    header("Refresh:2; url= ../Mainsite.php");
+    header("Refresh:2; url= Mainsite.php");
    exit;
 }else{
-    header("location: ../login.php");
+    header("location: login.php");
    exit;
 }
 ?>

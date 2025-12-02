@@ -25,8 +25,6 @@ header {
     color: white;
     top: 0;
     z-index: 1000;
-    margin: 0;
-    padding: 0;
     width: 100%;
     height: 8vh;
     position: sticky;
@@ -95,8 +93,6 @@ footer {
     background-color: #333;
     color: white;
     z-index: 1000;
-    margin: 0;
-    padding: 0;
     bottom: 0;
     width: 100%;
     height: 4vh;
@@ -443,4 +439,36 @@ footer {
             }
         }
     }
+}
+
+#Datenschutz{
+    #header-datenschutz{
+        text-align: center;
+    }
+    #adress-datenschutz{
+        margin-bottom: 20px !important;
+        text-decoration: none !important;
+    }
+    #rechte-datenschutz{
+        margin-bottom: 20px;
+        text-decoration: none !important;
+        
+        #adress-datenschutz{
+            margin-bottom: 20px !important;
+            text-decoration: none !important; 
+        }
+    }
+    .lhl{
+        text-decoration: underline;
+    }
+    ol, ul{
+        list-style-position: inside;
+    }
+    width: 50%;
+    height: 87vh;
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    justify-content: center;
+    text-align: center;
 }
