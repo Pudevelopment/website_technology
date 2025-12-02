@@ -103,6 +103,13 @@
                     });
                 }
             });
+
+            if (navigator.userAgent.includes("Mobile")) {
+                alert("Diese Webseite ist für mobile Geräte nicht optimiert.");
+                } else if (navigator.userAgent.includes("Tablet")) {
+                alert("Diese Webseite ist für Tablets nicht optimiert.");
+                }
+
         </script>
     </body>
 </html>

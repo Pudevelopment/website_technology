@@ -48,7 +48,6 @@
                     <br>
                     <h3>Es wird nicht gehaftet für unrichtige Angaben, Übertragungsfehler, technische Verfügbarkeit, externe Inhalte sowie Folgeschäden jeglicher Art.<br>Alle Angaben ohne Gewähr.&#160 &#160 Alle Rechte vorbehalten</h3>
                     <br>
-                    <button onclick="window.location.href='Mainsite2.php'">Zurück</button>
                 </p>
             </div>
         </main>

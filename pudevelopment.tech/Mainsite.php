@@ -14,7 +14,8 @@ require_once "config.php";
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="PU Development - Administrativer Bereich und Benutzerverwaltung.">
-        <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+        <link rel="stylesheet" type="text/css" href="../css/loginstyle.css" />
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <title>Administrativer Bereich</title>
         <link rel="icon" type="image/jpg"
@@ -23,6 +24,9 @@ require_once "config.php";
 
     <body>
         <header>
+            <div id="showprofile">
+                <input type="button" class="btn-teriträr" value="Profil" id="btn-profile" >
+            </div>
             <div id="welcometext">
                 <?php
                     $userid = $_SESSION["userid"];
@@ -35,7 +39,6 @@ require_once "config.php";
                 ?>
             <h1>Willkommen <?php echo htmlspecialchars($user['name'], ENT_QUOTES, 'UTF-8'); ?></h1> 
             </div>
-            
             <div id="logout">
                 <input type="button" class="btn-teriträr" value="Abmelden" id="btn-logout" >
             </div>
@@ -43,34 +46,34 @@ require_once "config.php";
         <main>
             <div class="flex-container">
                 <div id="functions">
-                    <input type="submit" class="btn-quarter" name="submit" value="Neuen Zugang anlegen" onclick="showForm('registernutzer')">
+                    <h2>Informationsverwaltung</h2>
+                    <input type="submit" class="btn-quarter" name="submit" value="Seilbahn hinzufügen" onclick="showForm('registerbahn')">
                     <br>
-                    <input type="submit" class="btn-quarter" name="submit" value="Zugang löschen" onclick="showForm('loeschennutzer')">
+                    <input type="submit" class="btn-quarter" name="submit" value="Seilbahn entfernen" onclick="showForm('loeschenbahn')">
                     <br>
-                    <input type="submit" class="btn-quarter" name="submit" value="Neue Seilbahn hinzufügen" onclick="showForm('registerbahn')">
+                    <input type="submit" class="btn-quarter" name="submit" value="Pistengeräte hinzufügen" onclick="showForm('registerpistengeraet')">
                     <br>
-                    <input type="submit" class="btn-quarter" name="submit" value="Seilbahn löschen" onclick="showForm('loeschenbahn')">
+                    <input type="submit" class="btn-quarter" name="submit" value="Pistengeräte entfernen" onclick="showForm('loeschenpistengeraet')">
                     <br>
-                    <input type="submit" class="btn-quarter" name="submit" value="Datenbank anzeigen" id="btn-datenbank">
+                    <input type="submit" class="btn-quarter" name="submit" value="Beschneiungsanlagen hinzufügen" onclick="showForm('registerschneekanone')">
                     <br>
-                    <input type="button" class="btn-quarter" name="button" value="Lorem ipsum dolor sit amet,">
+                    <input type="submit" class="btn-quarter" name="submit" value="Beschneiungsanlagen entfernen" onclick="showForm('loeschenschneekanone')">
                     <br>
-                    <input type="button" class="btn-quarter" name="button" value="consetetur sadipscing elitr,">
-                    <br>
-                    <input type="button" class="btn-quarter" name="button" value="sed diam nonumy eirmod tempor">
-                    <br>
-                    <input type="button" class="btn-quarter" name="button" value="invidunt ut labore et dolore ">
-                    <br>
-                    <input type="button" class="btn-quarter" name="button" value="magna aliquyam erat,">
-                    <br>
-                    <input type="button" class="btn-quarter" name="button" value="sed diam voluptua.">
-                    <br>
-                    <input type="button" class="btn-quarter" name="button" value="At vero eos et accusam et ">
-                    <br>
-                    <input type="button" class="btn-quarter" name="button" value=" justo duo dolores et ea rebum.">
-                    <br>
-                    <input type="button" class="btn-quarter" name="button" value="Stet clita kasd gubergren,">
-                    <br>
+                    <?php
+                        if ($_SESSION['status'] == 1){
+                            echo "<h2>Administration</h2>";
+                            echo "<input type='submit' class='btn-quarter' name='submit' value='Neuen Zugang anlegen' onclick=\"showForm('registernutzer')\">";
+                            echo "<br>";
+                            echo "<input type='submit' class='btn-quarter' name='submit' value='Zugang löschen' onclick=\"showForm('loeschennutzer')\">";
+                            echo "<br>";
+                            echo "<input type='submit' class='btn-quarter' name='submit' value='Benutzer anzeigen' onclick=\"showForm('showuser')\">";
+                            echo "<br>";
+                        }else{
+                            echo "<input type='submit' class='btn-quarter' name='submit' value='Neuen Zugang anlegen' hidden onclick=\"showForm('registernutzer')\">";
+                            echo "<input type='submit' class='btn-quarter' name='submit' value='Zugang löschen' hidden onclick=\"showForm('loeschennutzer')\">";
+                            echo "<input type='submit' class='btn-quarter' name='submit' value='Benutzer anzeigen' hidden onclick=\"showForm('showuser')\">";
+                        }
+                    ?>
                 </div>
                 <div id="registerbahn" class="form-container">
                    <div id="reg-bahn">
@@ -181,32 +184,6 @@ require_once "config.php";
                         </form>
                     </div> 
                 </div>
-                <div id="registernutzer" class="form-container">
-                    <div id="reg-nutzer">
-                        <form method="post" action="register.php">
-                            <h1>Neuen Zugang anlegen</h1>
-                            <div class="reg-form">
-                                <input type="text" name="name" class="form-control" placeholder="Vor- und Nachname" required oninvalid="this.setCustomValidity('Bitte einen gültigen Namen eingeben')" oninput="setCustomValidity('')">
-                            </div>
-                            <div class="reg-form">
-                                <input type="email" name="email" class="form-control" placeholder="E-Mail" />
-                            </div>
-                            <div class="reg-form">
-                                <input type="password" name="password" class="form-control" placeholder="Passwort">
-                            </div>
-                            <div class="reg-form">
-                                <input type="password" name="confirm_password" class="form-control" placeholder="Passwort wiederholen">
-                            </div>
-                            <br>
-                            <div class="reg-form">
-                                <div class="btn-reg-submit">
-                                    <input type="submit" name="submit" class="btn-primary" value="Registrieren" >
-                                    <button type="reset">Formular leeren</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
                 <div id="loeschenbahn" class="form-container">
                     <div id="del-bahn">
                         <form method="POST" action="del-bahn.php">
@@ -226,18 +203,44 @@ require_once "config.php";
                         </form>
                     </div>
                 </div>
+                <div id="registernutzer" class="form-container">
+                    <div id="reg-nutzer">
+                        <form method="post" action="register.php">
+                            <h1>Neuen Zugang anlegen</h1>
+                            <div class="reg-form">
+                                <input type="text" name="name" class="form-control" placeholder="Vor- und Nachname" required oninvalid="this.setCustomValidity('Bitte einen gültigen Namen eingeben')" oninput="setCustomValidity('')" autocomplete="name">
+                            </div>
+                            <div class="reg-form">
+                                <input type="email" name="email" class="form-control" placeholder="E-Mail" autocomplete="email"/>
+                            </div>
+                            <div class="reg-form">
+                                <input type="password" name="password" class="form-control" placeholder="Passwort" autocomplete="new-password">
+                            </div>
+                            <div class="reg-form">
+                                <input type="password" name="confirm_password" class="form-control" placeholder="Passwort wiederholen" autocomplete="new-password">
+                            </div>
+                            <br>
+                            <div class="reg-form">
+                                <div class="btn-reg-submit">
+                                    <input type="submit" name="submit" class="btn-primary" value="Registrieren" >
+                                    <button type="reset">Formular leeren</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
                 <div id="loeschennutzer" class="form-container">
                     <div id="del-nutzer">
                         <form method="POST" action="del-nutzer.php">
                             <h1>Zugang löschen</h1>
                             <div class="reg-form">
-                                <input type="email" name="email" class="form-control" placeholder="E-Mail" required oninvalid="this.setCustomValidity('Bitte eine gültige E-Mail angeben')" oninput="setCustomValidity('')">
+                                <input type="email" name="email" class="form-control" placeholder="E-Mail" required oninvalid="this.setCustomValidity('Bitte eine gültige E-Mail angeben')" oninput="setCustomValidity('')" autocomplete="username">
                             </div>
                             <div class="reg-form">
-                                <input type="password" name="password" class="form-control" placeholder="Passwort" required oninvalid="this.setCustomValidity('Bitte einen gültiges Passwort eingeben')" oninput="setCustomValidity('')">
+                                <input type="password" name="password" class="form-control" placeholder="Passwort" required oninvalid="this.setCustomValidity('Bitte einen gültiges Passwort eingeben')" oninput="setCustomValidity('')" autocomplete="current-password">
                             </div>
                             <div class="reg-form">
-                                <input type="password" name="confirm_password" class="form-control" placeholder="Passwort erneut eingeben" required oninvalid="this.setCustomValidity('Bitte einen gültiges Passwort eingeben')" oninput="setCustomValidity('')">
+                                <input type="password" name="confirm_password" class="form-control" placeholder="Passwort erneut eingeben" required oninvalid="this.setCustomValidity('Bitte einen gültiges Passwort eingeben')" oninput="setCustomValidity('')" autocomplete="current-password">
                             </div>
                             <div class="reg-form">
                                 <div class="btn-reg-submit">
@@ -248,15 +251,41 @@ require_once "config.php";
                         </form>
                     </div>
                 </div>
+                <div id="showuser" class="form-container">
+                    <div id="show-task">
+                        <form method="POST">
+                            <h1>Nutzer anzeigen</h1>
+                            <?php
+                                $stmt = $db->prepare("SELECT name, id FROM users");
+                                $stmt->execute();
+                                $result = $stmt->get_result();
+                                if($result->num_rows > 0){
+                                    while ($row = $result->fetch_assoc()) {
+                                        echo "<form method='POST' >";
+                                        echo "<div class='reg-form'>";
+                                        echo "<button type='submit' name='userid' value='" . htmlspecialchars($row['id']) . "'>" . htmlspecialchars($row['name']) . "</button>";
+                                        echo "</div>";
+                                        echo "</form> ";
+                                    }
+                                }else{
+                                    echo "<div class='reg-form'>";
+                                    echo "<p>Keine Nutzer gefunden</p>";
+                                    echo "</div>";
+                                    echo "<br><br><br><br>";
+                                }
+                            ?>
+                        </form>
+                    </div>
+                </div>
             </div>
         </main> 
         <footer>
             <p>
-                <a href="Impressum.php">Impressum</a>
+                <a href="../html/Impressum.html">Impressum</a>
             </p>
             <p>&copy; 2024-2025 Philipp Uhlendorf</p>
             <p>
-                <a href="Datenschutz.php">Datenschutz</a>
+                <a href="../html/Datenschutz.html">Datenschutz</a>
             </p>
         </footer>
         <?php
@@ -267,10 +296,13 @@ require_once "config.php";
                     text: '" . addslashes($_SESSION['error']) . "',
                     icon: 'error',
                     confirmButtonText: 'OK',
-                    allowOutsideClick: false,
                     background: '#333',
                     color: 'white',
-                    confirmButtonColor: 'red',
+                    showConfirmButton: false,
+                    timer: 2000,
+                    timerProgressBar: true,
+                    toast: true,
+                    position: 'top-end',
                 });
             </script>";
             unset($_SESSION['error']);
@@ -281,28 +313,131 @@ require_once "config.php";
                     text: '" . addslashes($_SESSION['success']) . "',
                     icon: 'success',
                     confirmButtonText: 'OK',
-                    allowOutsideClick: false,
                     background: '#333',
                     color: 'white',
-                    confirmButtonColor: 'green',
+                    showConfirmButton: false,
+                    timer: 2000,
+                    timerProgressBar: true,
+                    toast: true,
+                    position: 'top-end',
                 });
             </script>";
             unset($_SESSION['success']);
         }
+                   
+        // Benutzer anzeigen
+        if (isset($_POST['userid'])) {
+            $userId = $_POST['userid'];
+            $stmt = $db->prepare("SELECT name, email, status, age FROM users WHERE id = ?");
+            $stmt->bind_param('i', $userId);
+            $stmt->execute();
+            $result = $stmt->get_result();
+
+            if ($result->num_rows > 0) {
+                $user = $result->fetch_assoc();
+
+                $name =  htmlspecialchars($user['name']);
+                $email =  htmlspecialchars($user['email']);
+                $age =  $user['age'];
+                $status = $user['status'];
+                $lastlogin = $_SESSION['last_login'] ?? 'Kein Eintrag';
+                if($_SESSION['status'] == 1){
+                    $admin = true;
+                }else{
+                    $admin = false;
+                }
+                echo "<script>
+                    Swal.fire({
+                        title: 'Nutzerdetails',
+                        html: `
+                            <p><strong>Name:  </strong> $name</p>
+                            <p><strong>Email:  </strong> $email</p>
+                            <p><strong>Alter:  </strong> " . ($age ?? ' Kein Eintrag') ."</p>
+                            <p><strong>Status:  </strong> " . ($status == 1 ? 'Administrator' : 'Benutzer') . "</p>
+                            <p><strong>Letzte Anmeldung:  </strong> $lastlogin</p>
+                        `,
+                        icon: 'info',
+                        showCancelButton: true,
+                        confirmButtonText: 'Bearbeiten',
+                        cancelButtonText: 'Zurück',
+                        background: '#333',
+                        color: 'white',
+                        confirmButtonColor: 'rgb(0, 119, 255)',
+                        cancelButtonColor: 'rgb(0, 119, 255)',
+                        reverseButtons: true
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+                            editUser('$name', '$email', '$age', $status, $userId, $admin);
+                        }
+                    });
+                
+                </script>";
+            }
+        }
+
         ?>
 
         <script>
-            const basePath = "<?php echo dirname($_SERVER['SCRIPT_NAME']); ?>";
-            document.getElementById('btn-logout').addEventListener('click', function() {//Zum Login wechseln
-                 window.location.href = 'logout.php';
+            // Logout Button
+            document.getElementById('btn-logout').addEventListener('click', function() {
+                window.location.href = 'logout.php';
             });
 
-            document.getElementById('btn-datenbank').addEventListener('click', function() {
-                if(confirm("HINWEIS: \nEine Weiterleitung zur Datenbank ist nicht möglich.") == true){
-                    window.location.href = '';
-                }
+            //Zum Profil (als Swal Alert)
+            document.getElementById('btn-profile').addEventListener('click', function() {
+                <?php
+                    $userId = $_SESSION['userid'];
+                    $stmt = $db->prepare("SELECT name, email, status, age FROM users WHERE id = ?");
+                    $stmt->bind_param('i', $userId);
+                    $stmt->execute();
+                    $result = $stmt->get_result();
+
+                    if ($result->num_rows > 0) {
+                        $user = $result->fetch_assoc();
+                        
+                        $name =  htmlspecialchars($user['name']);
+                        $email =  htmlspecialchars($user['email']);
+                        $age =  $user['age'];
+                        $status = $user['status'];
+                        $lastlogin = $_SESSION['last_login'] ?? 'Kein Eintrag';
+
+                        if($status == 1){
+                            $admin = true;
+                        }else{
+                            $admin = false;
+                        }
+
+                        echo "
+                            Swal.fire({
+                                title: 'Profil',
+                                html: `
+                                    <p><strong>Name:  </strong> $name</p>
+                                    <p><strong>Email:  </strong> $email</p>
+                                    <p><strong>Alter:  </strong> " . ($age ?? ' Kein Eintrag') ."</p>
+                                    <p><strong>Status:  </strong> " . ($status == 1 ? 'Administrator' : 'Benutzer') . "</p>
+                                    <p><strong>Letzte Anmeldung:  </strong> $lastlogin</p>
+                                `,
+                                icon: 'info',
+                                confirmButtonText: 'Bearbeiten',
+                                cancelButtonText: 'Zurück',
+                                showCancelButton: true,
+                                reverseButtons: true,
+                                allowOutsideClick: false,
+                                background: '#333',
+                                color: 'white',
+                                confirmButtonColor: 'rgb(0, 119, 255)',
+                                cancelButtonColor: 'rgb(0, 119, 255)',
+                                }).then((result) => {
+                                    if (result.isConfirmed) {
+                                        editUser('$name', '$email', '$age', $status, $userId, $admin);
+                                    }
+                                });
+                        ";
+                    }
+                ?>
             });
 
+            // Formularanzeige
             function showForm(formId) {
                 const forms = document.querySelectorAll('.form-container');
                 forms.forEach(form => form.style.display = 'none');
@@ -310,12 +445,140 @@ require_once "config.php";
                 sessionStorage.setItem('formId', formId);
             }
 
+            // Beim Laden der Seite das zuletzt angezeigte Formular anzeigen
             window.addEventListener('load', function() {
                 const formId = sessionStorage.getItem('formId');
                 if (formId) {
                     showForm(formId);
                 }
             });
+
+            // Scroll Position speichern und wiederherstellen
+            document.addEventListener("DOMContentLoaded", function () {
+                const auswahlContainer = document.querySelector('#showtasks');
+                const scrollPositionKey = 'auswahlScrollPosition';
+                const savedPosition = sessionStorage.getItem(scrollPositionKey);
+
+                if (savedPosition) {
+                    auswahlContainer.scrollTop = parseInt(savedPosition, 10);
+                }
+
+                auswahlContainer.addEventListener('scroll', () => {
+                    sessionStorage.setItem(scrollPositionKey, auswahlContainer.scrollTop);
+                });
+
+                document.querySelectorAll('#showtasks button').forEach(button => {
+                    button.addEventListener('click', () => {
+                        setTimeout(() => {
+                            auswahlContainer.scrollTop = parseInt(sessionStorage.getItem(scrollPositionKey), 10);
+                        }, 100); 
+                    });
+                });
+            });
+
+            // Funktion Daten änderung in DB hinzuzufügen
+            function editUser(name, email, age, status, userid, iscurrentadmin){
+                Swal.fire({
+                    title: 'Profil bearbeiten',
+                    html: `
+                        <form id="profileForm">
+                            <input type="number" style="width:30vh; padding:1vh 2vh; border:3px solid #333; text-align:center; background-color: grey;" name="userid" value="${userid}" readonly>
+                            <br>
+                            <input type="text" style="width:30vh; padding:1vh 2vh; border:3px solid #333; text-align:center;" name="name" class="form-control" placeholder="Vor- und Nachname" value="${name}" required autocomplete="name">
+                            <br>
+                            <input type="email"  style="width:30vh; padding:1vh 2vh; border:3px solid #333; text-align:center;" name="email" class="form-control" placeholder="E-Mail" value="${email}" required autocomplete="email, username">
+                            <br>
+                            <input type="number" style="width:30vh; padding:1vh 2vh; border:3px solid #333; text-align:center;"  name="age" class="form-control" placeholder="Alter" value="${age}" required autocomplete="age">
+                            <br>
+                            <p>Status:</p>
+                            <img id="statusImage" alt="Status" src="../images/icons/${status == 1 ? 'admin.png' : 'noadmin.png'}" style="width:4vh; height:4vh; cursor:pointer;" ${status == 1 ? '' : 'readonly'}>
+                            <p id="statusText">${status == 1 ? 'Administrator' : 'Benutzer'}</p>
+                            <input type="hidden" name="status" id="statusHidden" value="${status == 1 ? '1' : '0'}">
+                        </form>
+                    `,
+                    showCancelButton: true,
+                    confirmButtonText: 'Speichern',
+                    cancelButtonText: 'Abbrechen',
+                    confirmButtonColor: 'rgb(0, 119, 255)',
+                    cancelButtonColor: 'rgb(0, 119, 255)',
+                    background: '#333',
+                    color: 'white',
+                    
+                    didOpen: () => {
+                        const statusImage = document.getElementById('statusImage');
+                        const statusHidden = document.getElementById('statusHidden');
+
+                        if (iscurrentadmin){
+                            statusImage.addEventListener('click', () => {
+                                const isAdmin = statusHidden.value === '1';
+                                statusHidden.value = isAdmin ? '0' : '1';
+                                statusImage.src = isAdmin ? '../images/icons/noadmin.png' : '../images/icons/admin.png';
+                                statusImage.alt = isAdmin ? 'Benutzer' : 'Administrator';
+                                statusText.textContent = isAdmin ? 'Benutzer' : 'Administrator';
+                            });
+                        } else {
+                            statusImage.style= 'readonly';
+                            statusImage.style.cursor = 'not-allowed';
+                            statusImage.style.height = '4vh'
+                        }
+                    }
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        const form = document.getElementById('profileForm');
+                        const formData = new FormData(form);
+                        fetch('update-profile.php', {
+                            method: 'POST',
+                            body: formData
+                        })
+                        .then(response => response.json())
+                        .then(data => {
+                            if (data.success) {
+                                Swal.fire({
+                                    title: 'Erfolg!',
+                                    text: 'Profil erfolgreich aktualisiert.',
+                                    icon: 'success',
+                                    background: '#333',
+                                    color: 'white',
+                                    showConfirmButton: false,
+                                    timer: 2000,
+                                    timerProgressBar: true,
+                                    toast: true,
+                                    position: 'top-end',
+                                });
+                                window.location.reload();
+                            } else {
+                                Swal.fire({
+                                    title: 'Fehler!',
+                                    text: data.error,
+                                    icon: 'error',
+                                    background: '#333',
+                                    color: 'white',
+                                    showConfirmButton: false,
+                                    timer: 2000,
+                                    timerProgressBar: true,
+                                    toast: true,
+                                    position: 'top-end',
+                                });
+                            }
+                        })
+                        .catch(error => {
+                            Swal.fire({
+                                title: 'Fehler!',
+                                text: 'Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.',
+                                icon: 'error',
+                                background: '#333',
+                                color: 'white',
+                                showConfirmButton: false,
+                                timer: 2000,
+                                timerProgressBar: true,
+                                toast: true,
+                                position: 'top-end',
+                            });
+                        });
+                    }
+                });
+            }
+
             window.addEventListener('load', function() {
                 const Ilovecookies = sessionStorage.getItem('Ilovecookies');
                 if (Ilovecookies === null) {
