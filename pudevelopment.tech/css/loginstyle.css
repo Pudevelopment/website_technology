@@ -7,7 +7,6 @@ body {
     user-select: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: white;
 }
 
@@ -26,6 +25,8 @@ header {
     color: white;
     top: 0;
     z-index: 1000;
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 8vh;
     position: sticky;
@@ -33,25 +34,7 @@ header {
         top: 1.25vh;
         position: fixed;
     }
-    #logout {
-        text-align: center;
-        padding: 0px;
-        top: 2vh;
-        right: 100px;
-        position: fixed;
-        width: 30px;
-        height: auto;
-        .btn-teriträr{
-            background-color: #333;
-            color: white;
-            padding: 12px 28px;
-        }
-        .btn-teriträr:hover{
-            background-color: #4b4b4b;
-            color: white;
-        }
-    }
-    #tohub {
+    #showprofile {
         text-align: center;
         padding: 0px;
         top: 2vh;
@@ -60,9 +43,66 @@ header {
         width: 30px;
         height: auto;
         .btn-teriträr{
+            text-align: right;
             background-color: #333;
+            width: 15vh;
+            height: 5vh;
             color: white;
             padding: 12px 28px;
+            background-image: url('../images/icons/account.png');
+            background-position: 1vh, 1vh;
+            background-size: 5vh, auto;
+            background-repeat: no-repeat;
+        }
+        .btn-teriträr:hover{
+            background-color: #4b4b4b;
+            color: white;
+        }
+    }
+    #backtosite{
+        text-align: center;
+        padding: 0px;
+        top: 2vh;
+        right: 150px;
+        position: fixed;
+        width: 10vh;
+        height: auto;
+        .btn-teriträr{
+            text-align: left;
+            background-color: #333;
+            width: 15vh;
+            height: 5vh;
+            color: white;
+            padding: 12px 28px;
+            background-image: url('../images/icons/back.png');
+            background-position: 9vh, 1vh;
+            background-size: 5vh, auto;
+            background-repeat: no-repeat;
+        }
+        .btn-teriträr:hover{
+            background-color: #4b4b4b;
+            color: white;
+        }
+    }
+    #logout {
+        text-align: center;
+        padding: 0px;
+        top: 2vh;
+        right: 100px;
+        position: fixed;
+        width: 10vh;
+        height: auto;
+        .btn-teriträr{
+            text-align: left;
+            background-color: #333;
+            width: 15vh;
+            height: 5vh;
+            color: white;
+            padding: 12px 28px;
+            background-image: url('../images/icons/logout.png');
+            background-position: 9vh, 1vh;
+            background-size: 5vh, auto;
+            background-repeat: no-repeat;
         }
         .btn-teriträr:hover{
             background-color: #4b4b4b;
@@ -71,13 +111,11 @@ header {
     }
 }
 
-
 main{
     top: 10%;
     min-height: 100%;
     position: relative;
     text-align: center;
-    overflow: hidden;
 }
 
 footer {
@@ -90,11 +128,13 @@ footer {
     overflow: visible;
     display: flex;
     justify-content: space-around;
+    background-color: #333;
     padding: 10px;
     text-align: center;
-    background-color: #333;
     color: white;
     z-index: 1000;
+    margin: 0;
+    padding: 0;
     bottom: 0;
     width: 100%;
     height: 4vh;
@@ -107,6 +147,18 @@ footer {
     }
 }
 
+footer#loginfooter {
+    background-color: transparent;
+    justify-content: space-between;
+    .footercopy{
+        justify-content: left;
+        margin-left: 5vh;
+    }
+    .footerlinks{
+        justify-content: right;
+        margin-right: 5vh;
+    }
+}
 
 .flex-container {
     display: flex;
@@ -116,6 +168,7 @@ footer {
     background-image: url("../images/background/panoischgl.jpg");
     background-repeat: no-repeat;
     background-size: 100%, auto;
+    min-height: 90vh;
     .form-container{
         display: none;
     }
@@ -132,11 +185,72 @@ footer {
             color: white;
             width: 350px;
         }
+        input[value="Seilbahn hinzufügen"]{
+            background-image: url('../images/icons/seilbahn.png');
+            background-position: 2vh, 3vh;
+            background-size: 5vh, auto;
+            background-repeat: no-repeat;
+        }
+        input[value="Seilbahn entfernen"]{
+            background-image: url('../images/icons/no_seilbahn.png');
+            background-position: 2vh, 3vh;
+            background-size: 5vh, auto;
+            background-repeat: no-repeat;
+        }
+        input[value="Pistengeräte hinzufügen"]{
+            background-image: url('../images/icons/pistengeraet.png');
+            background-position: 2vh, 3vh;
+            background-size: 5vh, auto;
+            background-repeat: no-repeat;
+        }
+        input[value="Pistengeräte entfernen"]{
+            background-image: url('../images/icons/no_pistengeraet.png');
+            background-position: 2vh, 3vh;
+            background-size: 5vh, auto;
+            background-repeat: no-repeat;
+        }
+        input[value="Beschneiungsanlagen hinzufügen"]{
+            background-image: url('../images/icons/schneekanone.png');
+            background-position: 2vh, 3vh;
+            background-size: 5vh, auto;
+            background-repeat: no-repeat;
+        }
+        input[value="Beschneiungsanlagen entfernen"]{
+            background-image: url('../images/icons/no_schneekanone.png');
+            background-position: 2vh, 3vh;
+            background-size: 5vh, auto;
+            background-repeat: no-repeat;
+        }
+        input[value="Neuen Zugang anlegen"]{
+            background-image: url('../images/icons/adduser.png');
+            background-position: 2vh, 3vh;
+            background-size: 5vh, auto;
+            background-repeat: no-repeat;
+        }
+        input[value="Zugang löschen"]{
+            background-image: url('../images/icons/deluser.png');
+            background-position: 2vh, 3vh;
+            background-size: 5vh, auto;
+            background-repeat: no-repeat;
+        }
+        input[value="Benutzer anzeigen"]{
+            background-image: url('../images/icons/multiuser.png');
+            background-position: 2vh, 3vh;
+            background-size: 5vh, auto;
+            background-repeat: no-repeat;
+        }
+        
         .btn-quarter:hover{
             border: 3px solid black;
         }
     }
-    #reg-bahn, #reg-nutzer, #del-bahn, #del-nutzer{
+    #show-task{ 
+        button[type="submit"]:hover{
+            background-color: #4b4b4b;
+            color: white;
+        }
+    }
+    #reg-bahn, #reg-nutzer, #del-bahn, #del-nutzer, #show-task, #reg-pistengeraet, #del-pistengeraet, #reg-beschneiung, #del-beschneiung{
         direction: ltr;
         display: flex;
         flex-direction: column;
@@ -147,7 +261,7 @@ footer {
         justify-items: center;
         padding: 1.5vh;
         font-size: clamp(17px, 0.7vw, 26px);
-        .bahn-form, .reg-form{
+        .bahn-form, .reg-form .pistengeraet-form, .beschneiung-form{
             justify-items: center;
             input, button{
                 border: 3px solid #333;
@@ -171,7 +285,7 @@ footer {
                     padding: 1vh 2vh;
                 }
             }
-            .check-bahn{
+            .check-bahn, .check-pistengeraet, .check-beschneiung{
                 width: 35vh;
                 text-align: center;
                 padding: 3vh;
@@ -210,6 +324,40 @@ footer {
         }
     }
 }
+
+.swal2-btn-standard{
+    background-color: green;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+}
+.swal2-btn-standard:hover {
+    background-color: green; 
+    transform: scale(1.05);
+}
+
+.swal2-popup #statusbox {
+    justify-content: center;
+    text-align: center;
+    max-width: 15vh;
+    height: 15vh;
+    background-color: transparent;
+    color: transparent;
+    background-image: url("../images/icons/noadmin.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    border: none;
+}
+
+.swal2-popup #statusbox:checked {
+    background-image: url("../images/icons/admin.png");
+}
+
 
 .container{
     background-image: url("../images/background/skiweltbahn.JPG");
@@ -263,7 +411,13 @@ footer {
                 justify-content: space-around;
                 text-align: center;
                 margin-left: 30%;
-                margin-right: 30%;  
+                margin-right: 30%;
+                .btn-duo{
+                    background-color: #ccc;
+                    color: #666;
+                    cursor: not-allowed;
+                    padding: 12px 28px;
+                }  
                 .btn-primary{
                     background-color: white;
                     color: #333;
@@ -284,193 +438,4 @@ footer {
             }
         }
     }
-   /* #regbody {
-        min-height: 100vh;
-        margin: 0;
-        flex-direction: column;
-        text-align: center;
-        justify-content: space-around;
-        display: flex;
-        position: sticky;
-        background-color: #333;
-        h1{
-            color: white;
-            font-size: 75px;
-        }
-        input[type="text"], input[type="email"], input[type="password"], input[type="confirm_password"]{
-            width: 25%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            box-sizing: border-box;
-            border: 5px solid rgb(178, 201, 212);
-        }
-        .form-group-button{
-            display: flex;
-            justify-content: space-around;
-            text-align: center;
-            margin-left: 40%;
-            margin-right: 40%;
-            .btn-primary{
-                background-color: white;
-                color: #333;
-                padding: 12px 28px;
-            }
-            .btn-primary:hover, .btn-primary:focus{
-                background-color: #333;
-                color: white;
-            }
-        }
-        .error{
-            text-align: center;
-            background-color: #333;
-            color: red;
-            font-size: 15px;
-            text-size-adjust: 10px;
-            position: sticky;
-        }
-        .success {
-            text-align: center;
-            background-color: #333;
-            color: green;
-            font-size: 15px;
-            text-size-adjust: 10px;
-            position: sticky;
-        }
-    }*/
-}
-
-#welcome {
-    overflow: hidden;
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    color: white;
-    text-align: center;
-    font-size: 200%;
-    font-size: clamp(25px, 1vw, 45px);
-    background-image: url("../images/background/skiweltbahn.JPG");
-    background-repeat: no-repeat;
-    background-size: 100%, auto;
-}
-
-.seilbahn{
-    overflow: hidden;
-    background-color: #a1e2f8;
-    main{
-        display: flex;
-        justify-content: space-between;
-        .gondel{
-            text-align: center;
-            overflow-y: hidden;
-            overflow-x: hidden;
-            height: calc(100vh - 12vh);
-            flex-grow: 1;
-            flex-shrink: 0;
-            position: sticky;
-            margin: 1%;
-            max-width: calc(100% - 350px);
-            table{
-                font-size: clamp(17px, 0.7vw, 26px);
-                display: flex;
-                justify-content: center;
-                max-width: 50%;
-                margin: 1%;
-                margin-left: 25%;
-                text-align: center;
-                width: 90%;
-                height: 50px;
-                padding-right: 1%;
-                .tablefest{
-                    text-align: right;
-                    margin-right: 20px;
-                }
-            }
-            .pic-else{
-                img{
-                    width: 150vh;
-                    height: auto;
-                }
-            }
-            .pic-db{
-                img{
-                    max-height: calc(100vh - 70vh);
-                    max-width: calc(100vh - 30vh);
-                    width: auto;
-                    height: auto;
-                }
-            }
-        }
-        .auswahl{
-            color: rgb(2, 2, 99);
-            max-width: 300px;
-            overflow-y: auto;
-            overflow-x: hidden;
-            max-height: calc(100vh - 12vh);
-            flex-grow: 1;
-            margin-left: 1%;
-            text-align: left;
-            h2{
-                text-decoration: underline;
-                font-size: 30px;
-                font-weight: bold;
-            }
-            form[method="POST"]{
-                display: inline;
-                padding-right: 90%;
-                text-align: center;
-                button{
-                    border-radius: 4px;
-                    background-color: white;
-                    color: black;
-                    padding: 15px 20px;
-                    border: 3px solid white;
-                    margin: 3px;
-                    width: 200px;
-                    height: 75px;
-                    font-size: 16px;
-                    text-align: center;
-                    display: inline-block;
-                }
-                button:focus, button:hover{
-                    background-color: rgb(2, 2, 99);
-                    color: white;
-                    border: 3px rgb(2, 2, 99) solid;
-                }
-            }
-        }
-    }
-}
-
-#Datenschutz{
-    #header-datenschutz{
-        text-align: center;
-    }
-    #adress-datenschutz{
-        margin-bottom: 20px !important;
-        text-decoration: none !important;
-    }
-    #rechte-datenschutz{
-        margin-bottom: 20px;
-        text-decoration: none !important;
-        
-        #adress-datenschutz{
-            margin-bottom: 20px !important;
-            text-decoration: none !important; 
-        }
-    }
-    .lhl{
-        text-decoration: underline;
-    }
-    ol, ul{
-        list-style-position: inside;
-    }
-    width: 50%;
-    height: 87vh;
-    margin: auto;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    justify-content: center;
-    text-align: center;
 }

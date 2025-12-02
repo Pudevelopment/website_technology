@@ -74,10 +74,10 @@
                     window.location.href = 'seilbahnen.php';
                 });
             document.getElementById('slopevehicles').addEventListener('click', function() {//Zur Pistengeräte Seite wechseln
-                    alert("Seite nicht verfügbar");
+                    window.location.href = 'pistengeraete.php';
                 });
             document.getElementById('snowmaking').addEventListener('click', function() {//Zur Beschneiungsanlagen Seite wechseln
-                    alert("Seite nicht verfügbar");
+                    window.location.href = 'beschneiungsanlagen.php';
                 });
             document.getElementById('btn-github').addEventListener('click', function() {//Zu Github wechseln
                     window.open("https://github.com/Pudevelopment/website_technology", "_blank");
@@ -103,6 +103,13 @@
                     });
                 }
             });
+
+            if (navigator.userAgent.includes("Mobile")) {
+                alert("Diese Webseite ist für mobile Geräte nicht optimiert.");
+                } else if (navigator.userAgent.includes("Tablet")) {
+                alert("Diese Webseite ist für Tablets nicht optimiert.");
+                }
+
         </script>
     </body>
 </html>
