@@ -295,7 +295,9 @@ if ($db === false) {
                                 }
                             mysqli_close($db);
                     }else{
-                        echo '<div class="pic-else"><img src= "images/background/skiweltbahn.JPG" alt="Skiweltbahn Bild als Platzhalter"></div>';
+                        echo '<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jY0yxxSy3NI?si=vXirAiZzPHytTrZs&amp;controls=0"
+                                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
                     } 
                     ?>
                 </div>
