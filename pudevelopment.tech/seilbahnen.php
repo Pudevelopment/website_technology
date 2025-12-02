@@ -296,29 +296,7 @@ if ($db === false) {
                             mysqli_close($db);
                     }else{
                         echo '
-                            <div id="player">
-                                <button onclick="player.unMute()">🔊 Ton an</button>
-
-                                <script src="https://www.youtube.com/iframe_api"></script>
-                                <script>
-                                var player;
-                                function onYouTubeIframeAPIReady() {
-                                    player = new YT.Player("player", {
-                                    videoId: "jY0yxxSy3NI",
-                                    playerVars: {
-                                        autoplay: 1,
-                                        mute: 1,
-                                        controls: 0,
-                                        loop: 1,
-                                        disablekb: 1,
-                                        fs: 0,
-                                        modestbranding: 1,
-                                        playlist: "jY0yxxSy3NI"
-                                    }
-                                    });
-                                }
-                                </script>
-                            </div>';                        
+                        <iframe id="ytplayer" type="text/html" width="2000vh" height="1125vh"src="https://www.youtube.com/embed/jY0yxxSy3NI?autoplay=1&controls=0&disablekb=1&fs=0&loop=1&modestbranding=1&playlist=jY0yxxSy3NI&mute=1"frameborder="0" allowfullscreen></iframe>';
                     } 
                     ?>
                 </div>
