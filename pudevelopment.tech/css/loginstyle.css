@@ -261,7 +261,7 @@ footer#loginfooter {
         justify-items: center;
         padding: 1.5vh;
         font-size: clamp(17px, 0.7vw, 26px);
-        .bahn-form, .reg-form{
+        .bahn-form, .reg-form .pistengeraet-form, .beschneiung-form{
             justify-items: center;
             input, button{
                 border: 3px solid #333;

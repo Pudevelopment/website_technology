@@ -55,9 +55,9 @@ require_once "config.php";
                     <br>
                     <input type="submit" class="btn-quarter" name="submit" value="Pistengeräte entfernen" onclick="showForm('loeschenpistengeraet')">
                     <br>
-                    <input type="submit" class="btn-quarter" name="submit" value="Beschneiungsanlagen hinzufügen" onclick="showForm('registerschneekanone')">
+                    <input type="submit" class="btn-quarter" name="submit" value="Beschneiungsanlagen hinzufügen" onclick="showForm('registerbeschneiung')">
                     <br>
-                    <input type="submit" class="btn-quarter" name="submit" value="Beschneiungsanlagen entfernen" onclick="showForm('loeschenschneekanone')">
+                    <input type="submit" class="btn-quarter" name="submit" value="Beschneiungsanlagen entfernen" onclick="showForm('loeschenbeschneiung')">
                     <br>
                     <?php
                         if ($_SESSION['status'] == 1){
