@@ -296,7 +296,7 @@ if ($db === false) {
                             mysqli_close($db);
                     }else{
                         echo '<div id="video">
-                                <iframe width="2600vh" height="1250vh" src="https://www.youtube-nocookie.com/embed/jY0yxxSy3NI?si=vXirAiZzPHytTrZs&amp;?autoplay=1&controls=0&disablekb=1&fs=0&loop=1&modestbranding=1" frameborder="0"></iframe></div>';
+                                <iframe width="2500vh" height="1200vh" src="https://www.youtube-nocookie.com/embed/jY0yxxSy3NI?si=vXirAiZzPHytTrZs&amp;autoplay=1;controls=0;disablekb=1;fs=0;loop=1;modestbranding=1" frameborder="0"></iframe></div>';
                     } 
                     ?>
                 </div>
