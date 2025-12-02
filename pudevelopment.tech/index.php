@@ -34,7 +34,7 @@
                     <div class="table-seitenauswahl">
                         <table>
                             <tr>
-                                <td id="cableway" rowspan="2"><p>Seilbahn</p><br><img src="images/seilbahnen/jochbahn.JPG" alt="Bild Seilbahn"></td>
+                                <td id="cableway" rowspan="2"><p>Seilbahnen</p><br><img src="images/seilbahnen/jochbahn.JPG" alt="Bild Seilbahn"></td>
                                 <td id="slopevehicles" rowspan="2"><p>Pistengeräte</p> <br><img src="images/pistengeraete/600W.jpg" alt="Bild Pistengerät"></td>
                                 <td id="snowmaking" rowspan="2"><p>Beschneiungsanlagen</p> <br><img src="images/beschneiungsanlagen/tf10.jpg" alt="Bild Beschneiungsanlage"></td>
                             </tr>

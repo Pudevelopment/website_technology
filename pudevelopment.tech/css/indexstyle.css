@@ -58,7 +58,7 @@ header {
         }
     }
     h1{
-        font-size: 4em;
+        font-size: clamp(24px, 1.5vw, 40px);
     }
 }
 
