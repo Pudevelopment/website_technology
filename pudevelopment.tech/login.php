@@ -79,14 +79,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])){
                             <br>
                             <div class="form-group">
                                 <div class="form-group-button">
-                                    <input type="button" name="submit" class="btn-duo" value="Zurück" id="back">
+                                    <input type="button" name="submit" class="btn-primary" value="Zurück" id="back">
                                     <input type="submit" name="submit" class="btn-primary" value="Anmelden">
                                 </div>
                             </div>
                             <br>
                             <div class="form-group">
                                 <div class="form-group-button">
-                                    <input type="button" name="submit" class="btn-primary" value="Passwort zurücksetzen" id="reset" disabled>
+                                    <input type="button" name="submit" class="btn-duo" value="Passwort zurücksetzen" id="reset" disabled>
                                 </div>
                             </div>
                             <br>
