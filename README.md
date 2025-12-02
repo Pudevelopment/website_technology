@@ -1,7 +1,7 @@
 # website_technology
 
 > [!NOTE]
-> This project only runs on servers because of PHP and MySQL
+> This project only runs on servers because of PHP and MySQL. <br>
 > A preview is available [here](pudevelopment.tech)
 >
 
