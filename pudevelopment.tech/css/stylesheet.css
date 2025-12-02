@@ -365,6 +365,7 @@ footer {
             text-align: center;
             overflow-y: auto;
             overflow-x: hidden;
+            min-height: calc(100vh - 12vh);
             max-height: calc(100vh - 12vh);
             flex-grow: 1;
             flex-shrink: 0;
