@@ -2,7 +2,7 @@
 
 > [!NOTE]
 > This project only runs on servers because of PHP and MySQL. <br>
-> A preview is available [here](pudevelopment.tech)
+> A preview is np longer available.
 >
 
 > ## Table of Content
