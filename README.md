@@ -3,7 +3,6 @@
 > [!IMPORTANT]
 > This project only runs on servers because of PHP and SQL. <br>
 > A preview is no longer available
->
 
 > ## Table of Content
 >
