@@ -257,7 +257,7 @@
             <p>
                 <a href="Impressum.php">Impressum</a>
             </p>
-            <p>&copy; 2024-2025 Philipp Uhlendorf</p>
+            <p>&copy; 2024-2026 Philipp Uhlendorf</p>
             <p>
                 <a href="Datenschutz.php">Datenschutz</a>
             </p>
