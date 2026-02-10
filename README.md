@@ -1,4 +1,4 @@
-# website_technology
+# Technology Website
 
 > [!IMPORTANT]
 > This project only runs on servers because of PHP and SQL. <br>
@@ -17,11 +17,12 @@
 
 ## Project Description
 
-This repo contains a *web application* where you can explore diffrent types of cable ways, slope vehicles or snowmaker.
+This repo contains a [**web application**](https://de.wikipedia.org/wiki/Webanwendung) where you can explore diffrent types of cable ways, slope vehicles or snowmaker.
 
 ## Project state
 
 🔧 This project is in development
+<br>
 
 > [!NOTE]
 > This project is currently not under active development.
@@ -54,12 +55,13 @@ This website contains the following parts:
 4. Configure your Server ports `80` (http) and `443` (https) to access your website
 
 > [!NOTE]
-> To Login the **first time** use:
-> Email: `test@test.de`
+> To Login the **first time** use: <br>
+> Email: `test@test.de` <br>
 > Password: `testtest`
 
+<br>
+
 > [!CAUTION]
->
 > **Add a new user and passoword** after Login and **delete** the test account!
 
 ## Report an error
